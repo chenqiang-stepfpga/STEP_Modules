@@ -1,0 +1,547 @@
+
+map -a "MachXO2" -p LCMXO2-4000HC -t CSBGA132 -s 4 -oc Commercial   "Sensor_Board_Sensor_Board.ngd" -o "Sensor_Board_Sensor_Board_map.ncd" -pr "Sensor_Board_Sensor_Board.prf" -mp "Sensor_Board_Sensor_Board.mrp" -lpf "C:/Users/22822/Desktop/Sensor_Board/Sensor_Board/Sensor_Board_Sensor_Board.lpf" -lpf "C:/Users/22822/Desktop/Sensor_Board/Sensor_Board.lpf" -c 0            
+map:  version Diamond (64-bit) 3.8.0.115.3
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+   Process the file: Sensor_Board_Sensor_Board.ngd
+   Picdevice="LCMXO2-4000HC"
+
+   Pictype="CSBGA132"
+
+   Picspeed=4
+
+   Remove unused logic
+
+   Do not produce over sized NCDs.
+
+Part used: LCMXO2-4000HCCSBGA132, Performance used: 4.
+
+Loading device for application map from file 'xo2c4000.nph' in environment: C:/lscc/diamond/3.8_x64/ispfpga.
+Package Status:                     Final          Version 1.44.
+
+Running general design DRC...
+
+Removing unused logic...
+
+Optimizing...
+
+
+
+
+Design Summary:
+   Number of registers:    245 out of  4635 (5%)
+      PFU registers:          245 out of  4320 (6%)
+      PIO registers:            0 out of   315 (0%)
+   Number of SLICEs:       544 out of  2160 (25%)
+      SLICEs as Logic/ROM:    544 out of  2160 (25%)
+      SLICEs as RAM:            0 out of  1620 (0%)
+      SLICEs as Carry:         86 out of  2160 (4%)
+   Number of LUT4s:        1086 out of  4320 (25%)
+      Number used as logic LUTs:        914
+      Number used as distributed RAM:     0
+      Number used as ripple logic:      172
+      Number used as shift registers:     0
+   Number of PIO sites used: 56 + 4(JTAG) out of 105 (57%)
+   Number of block RAMs:  0 out of 10 (0%)
+   Number of GSRs:  1 out of 1 (100%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+   Number of clocks:  2
+     Net clk_c: 155 loads, 155 rising, 0 falling (Driver: PIO clk )
+     Net ds18b20_interface_u1/clk_1mhz: 2 loads, 2 rising, 0 falling (Driver: ds18b20_interface_u1/clk_1mhz_142 )
+   Number of Clock Enables:  59
+     Net clk_c_enable_118: 3 loads, 3 LSLICEs
+     Net clk_c_enable_39: 3 loads, 3 LSLICEs
+     Net mpu6050_iic_u1/clk_c_enable_1: 1 loads, 1 LSLICEs
+     Net mpu6050_iic_u1/clk_c_enable_138: 4 loads, 4 LSLICEs
+     Net mpu6050_iic_u1/clk_c_enable_3: 1 loads, 1 LSLICEs
+     Net mpu6050_iic_u1/clk_c_enable_4: 1 loads, 1 LSLICEs
+     Net mpu6050_iic_u1/clk_c_enable_5: 1 loads, 1 LSLICEs
+     Net mpu6050_iic_u1/clk_c_enable_8: 1 loads, 1 LSLICEs
+     Net mpu6050_iic_u1/clk_c_enable_9: 1 loads, 1 LSLICEs
+     Net mpu6050_iic_u1/clk_c_enable_12: 1 loads, 1 LSLICEs
+     Net mpu6050_iic_u1/clk_c_enable_13: 1 loads, 1 LSLICEs
+     Net mpu6050_iic_u1/clk_c_enable_14: 1 loads, 1 LSLICEs
+     Net mpu6050_iic_u1/clk_c_enable_15: 1 loads, 1 LSLICEs
+     Net mpu6050_iic_u1/clk_c_enable_16: 1 loads, 1 LSLICEs
+     Net mpu6050_iic_u1/clk_c_enable_17: 1 loads, 1 LSLICEs
+     Net mpu6050_iic_u1/clk_c_enable_19: 1 loads, 1 LSLICEs
+     Net mpu6050_iic_u1/clk_c_enable_21: 1 loads, 1 LSLICEs
+     Net mpu6050_iic_u1/clk_c_enable_23: 1 loads, 1 LSLICEs
+     Net mpu6050_iic_u1/clk_c_enable_24: 1 loads, 1 LSLICEs
+     Net mpu6050_iic_u1/clk_c_enable_25: 1 loads, 1 LSLICEs
+     Net mpu6050_iic_u1/clk_c_enable_27: 1 loads, 1 LSLICEs
+     Net mpu6050_iic_u1/clk_c_enable_28: 1 loads, 1 LSLICEs
+     Net mpu6050_iic_u1/clk_c_enable_117: 1 loads, 1 LSLICEs
+     Net mpu6050_iic_u1/clk_c_enable_127: 2 loads, 2 LSLICEs
+     Net mpu6050_iic_u1/clk_c_enable_139: 1 loads, 1 LSLICEs
+     Net clk_c_enable_108: 2 loads, 2 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_99: 8 loads, 8 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_22: 1 loads, 1 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_78: 4 loads, 4 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_62: 10 loads, 10 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_26: 1 loads, 1 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_29: 1 loads, 1 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_30: 1 loads, 1 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_31: 1 loads, 1 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_32: 1 loads, 1 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_134: 2 loads, 2 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_34: 1 loads, 1 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_38: 1 loads, 1 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_40: 1 loads, 1 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_41: 1 loads, 1 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_43: 1 loads, 1 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_44: 1 loads, 1 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_71: 4 loads, 4 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_64: 1 loads, 1 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_84: 2 loads, 2 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_102: 2 loads, 2 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_104: 1 loads, 1 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_105: 1 loads, 1 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_106: 1 loads, 1 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_132: 2 loads, 2 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_131: 2 loads, 2 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_130: 3 loads, 3 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_129: 2 loads, 2 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_121: 1 loads, 1 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_122: 1 loads, 1 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_126: 1 loads, 1 LSLICEs
+     Net ds18b20_interface_u1/one_wire_N_896: 1 loads, 1 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_128: 1 loads, 1 LSLICEs
+     Net ds18b20_interface_u1/clk_c_enable_133: 1 loads, 1 LSLICEs
+   Number of LSRs:  10
+     Net n23851: 11 loads, 11 LSLICEs
+     Net mpu6050_iic_u1/n11491: 4 loads, 4 LSLICEs
+     Net mpu6050_iic_u1/n11506: 2 loads, 2 LSLICEs
+     Net mpu6050_iic_u1/n20592: 2 loads, 2 LSLICEs
+     Net coordinate_process_u1/n22162: 1 loads, 1 LSLICEs
+     Net ds18b20_interface_u1/n23964: 2 loads, 2 LSLICEs
+     Net ds18b20_interface_u1/n11522: 2 loads, 2 LSLICEs
+     Net ds18b20_interface_u1/n11519: 2 loads, 2 LSLICEs
+     Net ds18b20_interface_u1/n11516: 3 loads, 3 LSLICEs
+     Net ds18b20_interface_u1/n11511: 1 loads, 1 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net state_back_2_N_737_2: 74 loads
+     Net state_0: 57 loads
+     Net state_1: 53 loads
+     Net ds18b20_dataprocess_u1/tem_flag_N_1496: 38 loads
+     Net x_2: 36 loads
+     Net x_3: 36 loads
+     Net mpu6050_iic_u1/times_0: 33 loads
+     Net y_3: 33 loads
+     Net x_1: 32 loads
+     Net y_0: 30 loads
+ 
+
+   Number of warnings:  0
+   Number of errors:    0
+
+
+
+Total CPU Time: 1 secs  
+Total REAL Time: 0 secs  
+Peak Memory Usage: 56 MB
+
+Dumping design to file Sensor_Board_Sensor_Board_map.ncd.
+
+ncd2vdb "Sensor_Board_Sensor_Board_map.ncd" ".vdbs/Sensor_Board_Sensor_Board_map.vdb"
+
+Loading device for application ncd2vdb from file 'xo2c4000.nph' in environment: C:/lscc/diamond/3.8_x64/ispfpga.
+
+mpartrce -p "Sensor_Board_Sensor_Board.p2t" -f "Sensor_Board_Sensor_Board.p3t" -tf "Sensor_Board_Sensor_Board.pt" "Sensor_Board_Sensor_Board_map.ncd" "Sensor_Board_Sensor_Board.ncd"
+
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
+
+Lattice Place and Route Report for Design "Sensor_Board_Sensor_Board_map.ncd"
+Sun Jun 11 23:24:11 2017
+
+PAR: Place And Route Diamond (64-bit) 3.8.0.115.3.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF Sensor_Board_Sensor_Board_map.ncd Sensor_Board_Sensor_Board.dir/5_1.ncd Sensor_Board_Sensor_Board.prf
+Preference file: Sensor_Board_Sensor_Board.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file Sensor_Board_Sensor_Board_map.ncd.
+Design name: Sensor_Board
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     CSBGA132
+Performance: 4
+Loading device for application par from file 'xo2c4000.nph' in environment: C:/lscc/diamond/3.8_x64/ispfpga.
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)   56+4(JTAG)/280     21% used
+                  56+4(JTAG)/105     57% bonded
+
+   SLICE            544/2160         25% used
+
+   GSR                1/1           100% used
+
+
+Number of Signals: 1338
+Number of Connections: 4264
+
+Pin Constraint Summary:
+   56 out of 56 pins locked (100% locked).
+
+The following 1 signal is selected to use the primary clock routing resources:
+    clk_c (driver: clk, clk load #: 155)
+
+    <postMsg mid="61061008" type="Warning" dynamic="5" navigation="0" arg0="clk_c" arg1="Primary" arg2="clk" arg3="C1" arg4="Primary"  />
+
+The following 2 signals are selected to use the secondary clock routing resources:
+    n23851 (driver: SLICE_302, clk load #: 0, sr load #: 11, ce load #: 0)
+    ds18b20_interface_u1/clk_c_enable_62 (driver: ds18b20_interface_u1/SLICE_523, clk load #: 0, sr load #: 0, ce load #: 10)
+
+Signal rst_c is selected as Global Set/Reset.
+Starting Placer Phase 0.
+............
+Finished Placer Phase 0.  REAL time: 2 secs 
+
+Starting Placer Phase 1.
+.....................
+Placer score = 215708.
+Finished Placer Phase 1.  REAL time: 4 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  214097
+Finished Placer Phase 2.  REAL time: 4 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  General PIO: 1 out of 280 (0%)
+  PLL        : 0 out of 2 (0%)
+  DCM        : 0 out of 2 (0%)
+  DCC        : 0 out of 8 (0%)
+
+Quadrants All (TL, TR, BL, BR) - Global Clocks:
+  PRIMARY "clk_c" from comp "clk" on PIO site "C1 (PL4A)", clk load = 155
+  SECONDARY "n23851" from F1 on comp "SLICE_302" on site "R12C17A", clk load = 0, ce load = 0, sr load = 11
+  SECONDARY "ds18b20_interface_u1/clk_c_enable_62" from F1 on comp "ds18b20_interface_u1/SLICE_523" on site "R12C15B", clk load = 0, ce load = 10, sr load = 0
+
+  PRIMARY  : 1 out of 8 (12%)
+  SECONDARY: 2 out of 8 (25%)
+
+Edge Clocks:
+  No edge clock selected.
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   56 + 4(JTAG) out of 280 (21.4%) PIO sites used.
+   56 + 4(JTAG) out of 105 (57.1%) bonded PIO sites used.
+   Number of PIO comps: 56; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+-----------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref |
++----------+----------------+------------+-----------+
+| 0        | 11 / 26 ( 42%) | 2.5V       | -         |
+| 1        | 14 / 26 ( 53%) | 2.5V       | -         |
+| 2        | 13 / 28 ( 46%) | 2.5V       | -         |
+| 3        | 5 / 7 ( 71%)   | 2.5V       | -         |
+| 4        | 8 / 8 (100%)   | 2.5V       | -         |
+| 5        | 5 / 10 ( 50%)  | 2.5V       | -         |
++----------+----------------+------------+-----------+
+
+Total placer CPU time: 3 secs 
+
+Dumping design to file Sensor_Board_Sensor_Board.dir/5_1.ncd.
+
+
+-----------------------------------------------------------------
+INFO - par: ASE feature is off due to non timing-driven settings.  
+-----------------------------------------------------------------
+
+0 connections routed; 4264 unrouted.
+Starting router resource preassignment
+
+    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=ds18b20_interface_u1/clk_1mhz loads=12 clock_loads=2"  />
+
+Completed router resource preassignment. Real time: 6 secs 
+
+Start NBR router at 23:24:17 06/11/17
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 23:24:17 06/11/17
+
+Start NBR section for initial routing at 23:24:17 06/11/17
+Level 4, iteration 1
+116(0.05%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; real time: 7 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 23:24:18 06/11/17
+Level 4, iteration 1
+42(0.02%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; real time: 7 secs 
+Level 4, iteration 2
+21(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; real time: 7 secs 
+Level 4, iteration 3
+9(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; real time: 7 secs 
+Level 4, iteration 4
+3(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; real time: 7 secs 
+Level 4, iteration 5
+2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; real time: 7 secs 
+Level 4, iteration 6
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 7 secs 
+Level 4, iteration 7
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 7 secs 
+
+Start NBR section for re-routing at 23:24:18 06/11/17
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 7 secs 
+
+Start NBR section for post-routing at 23:24:18 06/11/17
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : <n/a>
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=ds18b20_interface_u1/clk_1mhz loads=12 clock_loads=2"  />
+
+Total CPU time 6 secs 
+Total REAL time: 7 secs 
+Completely routed.
+End of route.  4264 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file Sensor_Board_Sensor_Board.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = <n/a>
+PAR_SUMMARY::Timing score<setup/<ns>> = <n/a>
+PAR_SUMMARY::Worst  slack<hold /<ns>> = <n/a>
+PAR_SUMMARY::Timing score<hold /<ns>> = <n/a>
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 7 secs 
+Total REAL time to completion: 8 secs 
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+bitgen -f "Sensor_Board_Sensor_Board.t2b" -w "Sensor_Board_Sensor_Board.ncd" "Sensor_Board_Sensor_Board.prf"
+
+
+BITGEN: Bitstream Generator Diamond (64-bit) 3.8.0.115.3
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file Sensor_Board_Sensor_Board.ncd.
+Design name: Sensor_Board
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     CSBGA132
+Performance: 4
+Loading device for application Bitgen from file 'xo2c4000.nph' in environment: C:/lscc/diamond/3.8_x64/ispfpga.
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from Sensor_Board_Sensor_Board.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                         2.08**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                      JTAG_PORT  |                       ENABLE**  |
++---------------------------------+---------------------------------+
+|                       SDM_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                       I2C_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|        MUX_CONFIGURATION_PORTS  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  CONFIGURATION  |                          CFG**  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                           ON**  |
++---------------------------------+---------------------------------+
+|                        MY_ASSP  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               ONE_TIME_PROGRAM  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 ENABLE_TRANSFR  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  SHAREDEBRINIT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|            BACKGROUND_RECONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+ 
+Bitstream Status: Final           Version 1.92.
+ 
+Saving bit stream in "Sensor_Board_Sensor_Board.bit".
+
+bitgen -f "Sensor_Board_Sensor_Board.t2b" -w "Sensor_Board_Sensor_Board.ncd" -jedec "Sensor_Board_Sensor_Board.prf"
+
+
+BITGEN: Bitstream Generator Diamond (64-bit) 3.8.0.115.3
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file Sensor_Board_Sensor_Board.ncd.
+Design name: Sensor_Board
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     CSBGA132
+Performance: 4
+Loading device for application Bitgen from file 'xo2c4000.nph' in environment: C:/lscc/diamond/3.8_x64/ispfpga.
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from Sensor_Board_Sensor_Board.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                         2.08**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                      JTAG_PORT  |                       ENABLE**  |
++---------------------------------+---------------------------------+
+|                       SDM_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                       I2C_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|        MUX_CONFIGURATION_PORTS  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  CONFIGURATION  |                          CFG**  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                           ON**  |
++---------------------------------+---------------------------------+
+|                        MY_ASSP  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               ONE_TIME_PROGRAM  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 ENABLE_TRANSFR  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  SHAREDEBRINIT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|            BACKGROUND_RECONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+ 
+Bitstream Status: Final           Version 1.92.
+ 
+Saving bit stream in "Sensor_Board_Sensor_Board.jed".
+ 
+===========
+UFM Summary.
+===========
+UFM Size:        767 Pages (128*767 Bits).
+UFM Utilization: General Purpose Flash Memory.
+ 
+Available General Purpose Flash Memory:  767 Pages (Page 0 to Page 766).
+Initialized UFM Pages:                     0 Page.
+ 

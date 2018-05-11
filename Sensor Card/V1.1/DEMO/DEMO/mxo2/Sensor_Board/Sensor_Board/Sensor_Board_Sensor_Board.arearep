@@ -1,0 +1,96 @@
+----------------------------------------------------------------------
+Report for cell Sensor_Board.TECH
+Register bits:  245 of 4635 (5.286%)
+I/O cells:      56
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                 BB         2          100.0
+                              CCU2D        86          100.0
+                            FD1P3AX       115          100.0
+                            FD1P3AY         3          100.0
+                            FD1P3IX        22          100.0
+                            FD1S3AX        71          100.0
+                            FD1S3AY         3          100.0
+                            FD1S3IX        31          100.0
+                                GSR         1          100.0
+                                 IB         3          100.0
+                            L6MUX21         1          100.0
+                               LUT4       913          100.0
+                                 OB        51          100.0
+                              PFUMX        38          100.0
+SUB MODULES
+                 coordinate_process         1
+                ds18b20_dataprocess         1
+                  ds18b20_interface         1
+              led_matrix_dot_driver         1
+                        mpu6050_iic         1
+                        segment_LED         1
+                              TOTAL      1346
+----------------------------------------------------------------------
+Report for cell mpu6050_iic.v1
+Instance Path : mpu6050_iic_u1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        13           15.1
+                            FD1P3AX        24           20.9
+                            FD1P3AY         1           33.3
+                            FD1P3IX         8           36.4
+                            FD1S3AX        36           50.7
+                            FD1S3AY         3          100.0
+                            FD1S3IX         7           22.6
+                            L6MUX21         1          100.0
+                               LUT4       178           19.5
+                              PFUMX        16           42.1
+                              TOTAL       287
+----------------------------------------------------------------------
+Report for cell segment_LED.v1
+Instance Path : segment_LED_u1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4        16            1.8
+                              TOTAL        16
+----------------------------------------------------------------------
+Report for cell ds18b20_dataprocess.v1
+Instance Path : ds18b20_dataprocess_u1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        35           40.7
+                            FD1S3AX         8           11.3
+                               LUT4       310           34.0
+                              PFUMX         5           13.2
+                              TOTAL       358
+----------------------------------------------------------------------
+Report for cell led_matrix_dot_driver.v1
+Instance Path : led_matrix_dot_driver_u1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3AX        24           33.8
+                               LUT4       119           13.0
+                              PFUMX         2            5.3
+                              TOTAL       145
+----------------------------------------------------------------------
+Report for cell coordinate_process.v1
+Instance Path : coordinate_process_u1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        11           12.8
+                            FD1P3AX         5            4.3
+                            FD1P3AY         2           66.7
+                            FD1P3IX         1            4.5
+                            FD1S3AX         1            1.4
+                            FD1S3IX        21           67.7
+                               LUT4        41            4.5
+                              TOTAL        82
+----------------------------------------------------------------------
+Report for cell ds18b20_interface.v1
+Instance Path : ds18b20_interface_u1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        22           25.6
+                            FD1P3AX        86           74.8
+                            FD1P3IX        13           59.1
+                            FD1S3AX         2            2.8
+                            FD1S3IX         3            9.7
+                               LUT4       207           22.7
+                              PFUMX         9           23.7
+                              TOTAL       342

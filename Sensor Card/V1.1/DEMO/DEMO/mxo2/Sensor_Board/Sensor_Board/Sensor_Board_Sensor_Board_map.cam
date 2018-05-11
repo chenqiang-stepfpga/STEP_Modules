@@ -1,0 +1,131 @@
+[ START MERGED ]
+n6328 ds18b20_interface_u1/one_wire_N_888
+n6326 mpu6050_iic_u1/sda_link
+[ END MERGED ]
+[ START CLIPPED ]
+VCC_net
+ds18b20_interface_u1/sub_1596_add_2_1/S1
+ds18b20_interface_u1/sub_1596_add_2_1/S0
+ds18b20_interface_u1/sub_1596_add_2_1/CI
+ds18b20_interface_u1/sub_1596_add_2_3/S1
+ds18b20_interface_u1/sub_1596_add_2_3/S0
+ds18b20_interface_u1/sub_1596_add_2_5/S1
+ds18b20_interface_u1/sub_1596_add_2_5/S0
+ds18b20_interface_u1/sub_1596_add_2_7/S1
+ds18b20_interface_u1/sub_1596_add_2_7/S0
+ds18b20_interface_u1/sub_1596_add_2_9/S1
+ds18b20_interface_u1/sub_1596_add_2_9/S0
+ds18b20_interface_u1/sub_1596_add_2_11/S1
+ds18b20_interface_u1/sub_1596_add_2_11/S0
+ds18b20_interface_u1/sub_1596_add_2_13/S1
+ds18b20_interface_u1/sub_1596_add_2_13/S0
+ds18b20_interface_u1/sub_1596_add_2_15/S1
+ds18b20_interface_u1/sub_1596_add_2_15/S0
+ds18b20_interface_u1/sub_1596_add_2_17/S1
+ds18b20_interface_u1/sub_1596_add_2_17/S0
+ds18b20_interface_u1/sub_1596_add_2_19/S1
+ds18b20_interface_u1/sub_1596_add_2_19/S0
+ds18b20_interface_u1/sub_1596_add_2_21/S0
+ds18b20_interface_u1/sub_1596_add_2_21/CO
+ds18b20_interface_u1/add_76_1/S0
+ds18b20_interface_u1/add_76_1/CI
+ds18b20_interface_u1/add_76_21/S1
+ds18b20_interface_u1/add_76_21/CO
+coordinate_process_u1/cnt_shift_1804_1805_add_4_1/S0
+coordinate_process_u1/cnt_shift_1804_1805_add_4_1/CI
+coordinate_process_u1/cnt_shift_1804_1805_add_4_21/CO
+ds18b20_dataprocess_u1/add_4811_cout/S1
+ds18b20_dataprocess_u1/add_4811_cout/CO
+ds18b20_dataprocess_u1/add_4769_1/S0
+ds18b20_dataprocess_u1/add_4769_1/CI
+ds18b20_dataprocess_u1/add_4769_cout/S1
+ds18b20_dataprocess_u1/add_4769_cout/CO
+ds18b20_dataprocess_u1/add_4807_1/S0
+ds18b20_dataprocess_u1/add_4807_1/CI
+ds18b20_dataprocess_u1/tem_code_10__I_73_1/S0
+ds18b20_dataprocess_u1/tem_code_10__I_73_1/CI
+ds18b20_dataprocess_u1/add_4807_cout/S1
+ds18b20_dataprocess_u1/add_4807_cout/CO
+ds18b20_dataprocess_u1/tem_code_10__I_73_11/CO
+ds18b20_dataprocess_u1/add_4794_1/S0
+ds18b20_dataprocess_u1/add_4794_1/CI
+ds18b20_dataprocess_u1/add_4811_1/S0
+ds18b20_dataprocess_u1/add_4811_1/CI
+ds18b20_dataprocess_u1/add_4794_cout/S1
+ds18b20_dataprocess_u1/add_4794_cout/CO
+mpu6050_iic_u1/cnt_10ms_1798_add_4_1/S0
+mpu6050_iic_u1/cnt_10ms_1798_add_4_1/CI
+mpu6050_iic_u1/cnt_10ms_1798_add_4_17/S1
+mpu6050_iic_u1/cnt_10ms_1798_add_4_17/CO
+mpu6050_iic_u1/cnt_sum_1799_1800_add_4_1/S0
+mpu6050_iic_u1/cnt_sum_1799_1800_add_4_1/CI
+mpu6050_iic_u1/cnt_sum_1799_1800_add_4_7/CO
+add_1779_2/S1
+add_1779_2/S0
+add_1779_2/CI
+add_1779_4/S0
+add_1779_10/CO
+[ END CLIPPED ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.8.0.115.3 -- WARNING: Map write only section -- Sun Jun 11 23:24:10 2017
+
+SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF ;
+LOCATE COMP "seg_led_1[7]" SITE "F1" ;
+LOCATE COMP "seg_led_1[8]" SITE "C9" ;
+LOCATE COMP "scl" SITE "C8" ;
+LOCATE COMP "one_wire" SITE "K12" ;
+LOCATE COMP "sda" SITE "B8" ;
+LOCATE COMP "ir" SITE "J14" ;
+LOCATE COMP "rst" SITE "L14" ;
+LOCATE COMP "clk" SITE "C1" ;
+LOCATE COMP "led[0]" SITE "N13" ;
+LOCATE COMP "led[1]" SITE "M12" ;
+LOCATE COMP "led[2]" SITE "P12" ;
+LOCATE COMP "led[3]" SITE "M11" ;
+LOCATE COMP "led[4]" SITE "P11" ;
+LOCATE COMP "led[5]" SITE "N10" ;
+LOCATE COMP "led[6]" SITE "N9" ;
+LOCATE COMP "led[7]" SITE "P9" ;
+LOCATE COMP "col[0]" SITE "P8" ;
+LOCATE COMP "col[1]" SITE "N6" ;
+LOCATE COMP "col[2]" SITE "L3" ;
+LOCATE COMP "col[3]" SITE "K3" ;
+LOCATE COMP "col[4]" SITE "K2" ;
+LOCATE COMP "col[5]" SITE "J3" ;
+LOCATE COMP "col[6]" SITE "J2" ;
+LOCATE COMP "col[7]" SITE "F3" ;
+LOCATE COMP "row[0]" SITE "N7" ;
+LOCATE COMP "row[1]" SITE "P7" ;
+LOCATE COMP "row[2]" SITE "P6" ;
+LOCATE COMP "row[3]" SITE "N5" ;
+LOCATE COMP "row[4]" SITE "H12" ;
+LOCATE COMP "row[5]" SITE "G14" ;
+LOCATE COMP "row[6]" SITE "G13" ;
+LOCATE COMP "row[7]" SITE "F14" ;
+LOCATE COMP "row[8]" SITE "F13" ;
+LOCATE COMP "row[9]" SITE "G12" ;
+LOCATE COMP "row[10]" SITE "F12" ;
+LOCATE COMP "row[11]" SITE "E12" ;
+LOCATE COMP "row[12]" SITE "H3" ;
+LOCATE COMP "row[13]" SITE "G3" ;
+LOCATE COMP "row[14]" SITE "E3" ;
+LOCATE COMP "row[15]" SITE "N8" ;
+LOCATE COMP "seg_led_2[0]" SITE "C12" ;
+LOCATE COMP "seg_led_2[1]" SITE "B14" ;
+LOCATE COMP "seg_led_2[2]" SITE "J1" ;
+LOCATE COMP "seg_led_2[3]" SITE "H1" ;
+LOCATE COMP "seg_led_2[4]" SITE "H2" ;
+LOCATE COMP "seg_led_2[5]" SITE "B12" ;
+LOCATE COMP "seg_led_2[6]" SITE "A11" ;
+LOCATE COMP "seg_led_2[7]" SITE "K1" ;
+LOCATE COMP "seg_led_2[8]" SITE "A12" ;
+LOCATE COMP "seg_led_1[0]" SITE "A10" ;
+LOCATE COMP "seg_led_1[1]" SITE "C11" ;
+LOCATE COMP "seg_led_1[2]" SITE "F2" ;
+LOCATE COMP "seg_led_1[3]" SITE "E1" ;
+LOCATE COMP "seg_led_1[4]" SITE "E2" ;
+LOCATE COMP "seg_led_1[5]" SITE "A9" ;
+LOCATE COMP "seg_led_1[6]" SITE "B9" ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

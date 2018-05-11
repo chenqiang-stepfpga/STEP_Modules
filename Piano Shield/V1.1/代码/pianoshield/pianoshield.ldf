@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="pianoshield" device="LCMXO2-4000HC-4MG132C" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="pianoshield_top"/>
+        <Source name="source/beeper.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/cap1188_i2c.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/clk_quarter.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/define_reg.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/display.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/music_box.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/pianoshield_top.v" type="Verilog" type_short="Verilog">
+            <Options top_module="pianoshield_top"/>
+        </Source>
+        <Source name="source/PWM.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="impl1/impl1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="pianoshield.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="pianoshield1.sty"/>
+</BaliProject>

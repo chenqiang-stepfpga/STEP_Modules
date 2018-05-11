@@ -1,0 +1,9 @@
+Output: Component Cross Reference Report
+Type  : ReportComponents
+From  : Variant [[No Variations]] of Project [Sensor_ExpandBoard_V1.1.PrjPCB]
+
+
+Files Generated   : 0
+Documents Printed : 0
+
+Finished Output Generation At 17:45:54 On 2017/5/11

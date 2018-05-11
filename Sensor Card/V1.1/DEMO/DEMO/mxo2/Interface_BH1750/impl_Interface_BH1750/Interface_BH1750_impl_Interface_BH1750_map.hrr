@@ -1,0 +1,80 @@
+---------------------------------------------------
+Report for cell Interface_BH1750
+   Instance path: Interface_BH1750
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     350.00        100.0
+                                  LUT4	     538.00        100.0
+                                 IOBUF	         53        100.0
+                                PFUREG	        128        100.0
+                                RIPPLE	         81        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               seg_led	          1         1.0
+                               rgb_led	          1         2.2
+                              led_scan	          1        41.4
+                            BIN_To_BCD	          1         2.3
+                                BH1750	          1        52.3
+---------------------------------------------------
+Report for cell led_scan
+   Instance path: Interface_BH1750/u5
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     145.00        41.4
+                                  LUT4	     151.00        28.1
+                                PFUREG	         94        73.4
+                                RIPPLE	         66        81.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+             clk_div(COUNTER_NUM=1200)	          1         9.6
+           clk_div(COUNTER_NUM=100000)	          1         9.6
+---------------------------------------------------
+Report for cell clk_div(COUNTER_NUM=100000)
+   Instance path: Interface_BH1750/u5/clk16Hz_uut
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      33.67         9.6
+                                  LUT4	       1.00         0.2
+                                PFUREG	         33        25.8
+                                RIPPLE	         33        40.7
+---------------------------------------------------
+Report for cell clk_div(COUNTER_NUM=1200)
+   Instance path: Interface_BH1750/u5/clk10KHz_uut
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      33.67         9.6
+                                  LUT4	       1.00         0.2
+                                PFUREG	         33        25.8
+                                RIPPLE	         33        40.7
+---------------------------------------------------
+Report for cell BIN_To_BCD
+   Instance path: Interface_BH1750/u3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.00         2.3
+                                  LUT4	      16.00         3.0
+---------------------------------------------------
+Report for cell seg_led
+   Instance path: Interface_BH1750/u4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.50         1.0
+                                  LUT4	       7.00         1.3
+---------------------------------------------------
+Report for cell BH1750
+   Instance path: Interface_BH1750/u1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     183.00        52.3
+                                  LUT4	     344.00        63.9
+                                PFUREG	         28        21.9
+                                RIPPLE	         11        13.6
+---------------------------------------------------
+Report for cell rgb_led
+   Instance path: Interface_BH1750/u6
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       7.75         2.2
+                                  LUT4	      12.00         2.2
+                                PFUREG	          6         4.7
+                                RIPPLE	          4         4.9

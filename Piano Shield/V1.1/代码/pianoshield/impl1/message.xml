@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>musicbox_u/mux_339</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/cap1188_i2c.v(18): </Dynamic>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/define_reg.v</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/cap1188_i2c.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/pianoshield_top.v(18): </Dynamic>
+            <Dynamic>pianoshield_top</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/pianoshield_top.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/cap1188_i2c.v(20): </Dynamic>
+            <Dynamic>cap1188_i2c</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/cap1188_i2c.v</Navigation>
+            <Navigation>20</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/cap1188_i2c.v(43): </Dynamic>
+            <Dynamic>init_reg</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/cap1188_i2c.v</Navigation>
+            <Navigation>43</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/cap1188_i2c.v(44): </Dynamic>
+            <Dynamic>init_dat</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/cap1188_i2c.v</Navigation>
+            <Navigation>44</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/cap1188_i2c.v(51): </Dynamic>
+            <Dynamic>work_reg</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/cap1188_i2c.v</Navigation>
+            <Navigation>51</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/beeper.v(18): </Dynamic>
+            <Dynamic>beeper</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/beeper.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/music_box.v(18): </Dynamic>
+            <Dynamic>music_box</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/music_box.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/clk_quarter.v(18): </Dynamic>
+            <Dynamic>clk_quarter</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/clk_quarter.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/music_box.v(121): </Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>5</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/music_box.v</Navigation>
+            <Navigation>121</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/music_box.v(126): </Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>5</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/music_box.v</Navigation>
+            <Navigation>126</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/music_box.v(133): </Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>5</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/music_box.v</Navigation>
+            <Navigation>133</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/music_box.v(139): </Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>5</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/music_box.v</Navigation>
+            <Navigation>139</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/pwm.v(18): </Dynamic>
+            <Dynamic>pwm</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/pwm.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/pwm.v(60): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>1</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/pwm.v</Navigation>
+            <Navigation>60</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/music_box.v(36): </Dynamic>
+            <Dynamic>freq</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/music_box.v</Navigation>
+            <Navigation>36</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/music_box.v(37): </Dynamic>
+            <Dynamic>PUA</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/music_box.v</Navigation>
+            <Navigation>37</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/music_box.v(38): </Dynamic>
+            <Dynamic>PUB</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/music_box.v</Navigation>
+            <Navigation>38</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/display.v(18): </Dynamic>
+            <Dynamic>display</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/display.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/display.v(27): </Dynamic>
+            <Dynamic>seg</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/display.v</Navigation>
+            <Navigation>27</Navigation>
+        </Message>
+        <Message>
+            <ID>35931038</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/cap1188_i2c.v(43): </Dynamic>
+            <Dynamic>init_reg_original_ramnet</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/cap1188_i2c.v</Navigation>
+            <Navigation>43</Navigation>
+        </Message>
+        <Message>
+            <ID>35931038</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/cap1188_i2c.v(44): </Dynamic>
+            <Dynamic>init_dat_original_ramnet</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/cap1188_i2c.v</Navigation>
+            <Navigation>44</Navigation>
+        </Message>
+        <Message>
+            <ID>35931038</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/cap1188_i2c.v(51): </Dynamic>
+            <Dynamic>work_reg_original_ramnet</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/cap1188_i2c.v</Navigation>
+            <Navigation>51</Navigation>
+        </Message>
+        <Message>
+            <ID>35931038</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/music_box.v(36): </Dynamic>
+            <Dynamic>freq_original_ramnet</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/music_box.v</Navigation>
+            <Navigation>36</Navigation>
+        </Message>
+        <Message>
+            <ID>35931038</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/music_box.v(37): </Dynamic>
+            <Dynamic>PUA_original_ramnet</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/music_box.v</Navigation>
+            <Navigation>37</Navigation>
+        </Message>
+        <Message>
+            <ID>35931038</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/music_box.v(38): </Dynamic>
+            <Dynamic>PUB_original_ramnet</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/music_box.v</Navigation>
+            <Navigation>38</Navigation>
+        </Message>
+        <Message>
+            <ID>35931038</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/display.v(27): </Dynamic>
+            <Dynamic>seg_original_ramnet</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/display.v</Navigation>
+            <Navigation>27</Navigation>
+        </Message>
+        <Message>
+            <ID>35001774</ID>
+            <Severity>Info</Severity>
+            <Dynamic>\musicbox_u/state</Dynamic>
+            <Dynamic>one-hot</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>0</Dynamic>
+            <Dynamic>\musicbox_u/state_FSM</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001748</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>0</Dynamic>
+            <Dynamic>\musicbox_u/pucounter_max</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>1</Dynamic>
+            <Dynamic>\musicbox_u/pucounter_max</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>2</Dynamic>
+            <Dynamic>\musicbox_u/pucounter_max</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>3</Dynamic>
+            <Dynamic>\musicbox_u/pucounter_max</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>5</Dynamic>
+            <Dynamic>\musicbox_u/pucounter_max</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>6</Dynamic>
+            <Dynamic>\musicbox_u/pucounter_max</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>7</Dynamic>
+            <Dynamic>\musicbox_u/pucounter_max</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>0</Dynamic>
+            <Dynamic>\musicbox_u/freq_index</Dynamic>
+        </Message>
+        <Message>
+            <ID>35935013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/test/desktop/pianoshield/source/cap1188_i2c.v(302): </Dynamic>
+            <Dynamic>\cap1188_i2c_u/state_back_i0_i3</Dynamic>
+            <Navigation>c:/users/test/desktop/pianoshield/source/cap1188_i2c.v</Navigation>
+            <Navigation>302</Navigation>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>clk_in_c</Dynamic>
+            <Dynamic>Primary</Dynamic>
+            <Dynamic>clk_in</Dynamic>
+            <Dynamic>C1</Dynamic>
+            <Dynamic>Primary</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=cap1188_i2c_u/clk_200khz loads=17 clock_loads=3</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=cap1188_i2c_u/clk_200khz loads=17 clock_loads=3</Dynamic>
+        </Message>
+    </Task>
+</BaliMessageLog>

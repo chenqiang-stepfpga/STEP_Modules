@@ -1,0 +1,394 @@
+<HTML>
+<HEAD><TITLE>Lattice Synthesis Timing Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Map_Twr"></A><B><U><big>Lattice Synthesis Timing Report</big></U></B>
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Mon Jun 05 21:23:24 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="mtw1_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Design:     pianoshield_top
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 1000.000000 -name clk2 [get_nets \musicbox_u/clk_4Hz]
+            79 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 992.626ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3IX    CK             \musicbox_u/counter_1370__i3  (from \musicbox_u/clk_4Hz +)
+   Destination:    FD1S3IX    CD             \musicbox_u/counter_1370__i0  (to \musicbox_u/clk_4Hz +)
+
+   Delay:                   7.214ns  (26.7% logic, 73.3% route), 4 logic levels.
+
+ Constraint Details:
+
+      7.214ns data_path \musicbox_u/counter_1370__i3 to \musicbox_u/counter_1370__i0 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 992.626ns
+
+ Path Details: \musicbox_u/counter_1370__i3 to \musicbox_u/counter_1370__i0
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \musicbox_u/counter_1370__i3 (from \musicbox_u/clk_4Hz)
+Route        15   e 1.869                                  counter[3]
+LUT4        ---     0.493              A to Z              \musicbox_u/i10233_2_lut
+Route         1   e 0.941                                  \musicbox_u/n16129
+LUT4        ---     0.493              C to Z              \musicbox_u/i2_4_lut_adj_131
+Route         1   e 0.941                                  \musicbox_u/n15924
+LUT4        ---     0.493              B to Z              \musicbox_u/i1_4_lut
+Route         8   e 1.540                                  \musicbox_u/n5852
+                  --------
+                    7.214  (26.7% logic, 73.3% route), 4 logic levels.
+
+
+Passed:  The following path meets requirements by 992.626ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3IX    CK             \musicbox_u/counter_1370__i3  (from \musicbox_u/clk_4Hz +)
+   Destination:    FD1S3IX    CD             \musicbox_u/counter_1370__i7  (to \musicbox_u/clk_4Hz +)
+
+   Delay:                   7.214ns  (26.7% logic, 73.3% route), 4 logic levels.
+
+ Constraint Details:
+
+      7.214ns data_path \musicbox_u/counter_1370__i3 to \musicbox_u/counter_1370__i7 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 992.626ns
+
+ Path Details: \musicbox_u/counter_1370__i3 to \musicbox_u/counter_1370__i7
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \musicbox_u/counter_1370__i3 (from \musicbox_u/clk_4Hz)
+Route        15   e 1.869                                  counter[3]
+LUT4        ---     0.493              A to Z              \musicbox_u/i10233_2_lut
+Route         1   e 0.941                                  \musicbox_u/n16129
+LUT4        ---     0.493              C to Z              \musicbox_u/i2_4_lut_adj_131
+Route         1   e 0.941                                  \musicbox_u/n15924
+LUT4        ---     0.493              B to Z              \musicbox_u/i1_4_lut
+Route         8   e 1.540                                  \musicbox_u/n5852
+                  --------
+                    7.214  (26.7% logic, 73.3% route), 4 logic levels.
+
+
+Passed:  The following path meets requirements by 992.626ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3IX    CK             \musicbox_u/counter_1370__i3  (from \musicbox_u/clk_4Hz +)
+   Destination:    FD1S3IX    CD             \musicbox_u/counter_1370__i6  (to \musicbox_u/clk_4Hz +)
+
+   Delay:                   7.214ns  (26.7% logic, 73.3% route), 4 logic levels.
+
+ Constraint Details:
+
+      7.214ns data_path \musicbox_u/counter_1370__i3 to \musicbox_u/counter_1370__i6 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 992.626ns
+
+ Path Details: \musicbox_u/counter_1370__i3 to \musicbox_u/counter_1370__i6
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \musicbox_u/counter_1370__i3 (from \musicbox_u/clk_4Hz)
+Route        15   e 1.869                                  counter[3]
+LUT4        ---     0.493              A to Z              \musicbox_u/i10233_2_lut
+Route         1   e 0.941                                  \musicbox_u/n16129
+LUT4        ---     0.493              C to Z              \musicbox_u/i2_4_lut_adj_131
+Route         1   e 0.941                                  \musicbox_u/n15924
+LUT4        ---     0.493              B to Z              \musicbox_u/i1_4_lut
+Route         8   e 1.540                                  \musicbox_u/n5852
+                  --------
+                    7.214  (26.7% logic, 73.3% route), 4 logic levels.
+
+Report: 7.374 ns is the maximum delay for this constraint.
+
+
+
+================================================================================
+Constraint: create_clock -period 1000.000000 -name clk1 [get_nets \cap1188_i2c_u/clk_200khz]
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Constraint: create_clock -period 1000.000000 -name clk0 [get_nets clk_in_c]
+            4096 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 979.589ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3AX    CK             tone_i0  (from clk_in_c +)
+   Destination:    FD1S3AY    D              \beeper_u/piano_out_35  (to clk_in_c +)
+
+   Delay:                  20.251ns  (35.0% logic, 65.0% route), 17 logic levels.
+
+ Constraint Details:
+
+     20.251ns data_path tone_i0 to \beeper_u/piano_out_35 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 979.589ns
+
+ Path Details: tone_i0 to \beeper_u/piano_out_35
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              tone_i0 (from clk_in_c)
+Route        52   e 2.315                                  tone[0]
+LUT4        ---     0.493              A to Z              \beeper_u/tone_7__I_0_45_i9_2_lut_rep_269
+Route         4   e 1.340                                  \beeper_u/n17000
+LUT4        ---     0.493              D to Z              \beeper_u/i1_2_lut_rep_197_3_lut_4_lut
+Route         3   e 1.258                                  \beeper_u/n16928
+LUT4        ---     0.493              B to Z              \beeper_u/i1_3_lut_rep_174_4_lut_4_lut
+Route         4   e 1.340                                  \beeper_u/n16905
+LUT4        ---     0.493              C to Z              \beeper_u/i1_2_lut_3_lut_4_lut_adj_95
+Route         2   e 1.141                                  \beeper_u/n15937
+LUT4        ---     0.493              D to Z              \beeper_u/i1_2_lut_4_lut
+Route         1   e 0.941                                  \beeper_u/n15938
+LUT4        ---     0.493              B to Z              \beeper_u/i1_4_lut_adj_119
+Route         1   e 0.941                                  \beeper_u/n9572
+A1_TO_FCO   ---     0.827           A[2] to COUT           \beeper_u/add_1182_7
+Route         1   e 0.020                                  \beeper_u/n14864
+FCI_TO_FCO  ---     0.157            CIN to COUT           \beeper_u/add_1182_9
+Route         1   e 0.020                                  \beeper_u/n14865
+FCI_TO_FCO  ---     0.157            CIN to COUT           \beeper_u/add_1182_11
+Route         1   e 0.020                                  \beeper_u/n14866
+FCI_TO_FCO  ---     0.157            CIN to COUT           \beeper_u/add_1182_13
+Route         1   e 0.020                                  \beeper_u/n14867
+FCI_TO_FCO  ---     0.157            CIN to COUT           \beeper_u/add_1182_15
+Route         1   e 0.020                                  \beeper_u/n14868
+FCI_TO_FCO  ---     0.157            CIN to COUT           \beeper_u/add_1182_17
+Route         1   e 0.020                                  \beeper_u/n14869
+FCI_TO_F    ---     0.598            CIN to S[2]           \beeper_u/add_1182_19
+Route         1   e 0.941                                  \beeper_u/n6686
+LUT4        ---     0.493              B to Z              \beeper_u/i13_4_lut
+Route         1   e 0.941                                  \beeper_u/n31
+LUT4        ---     0.493              A to Z              \beeper_u/i16_4_lut
+Route         1   e 0.941                                  \beeper_u/n34
+LUT4        ---     0.493              C to Z              \beeper_u/i1_4_lut_adj_104
+Route         1   e 0.941                                  \beeper_u/piano_out_N_348
+                  --------
+                   20.251  (35.0% logic, 65.0% route), 17 logic levels.
+
+
+Passed:  The following path meets requirements by 979.657ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3AX    CK             tone_i0  (from clk_in_c +)
+   Destination:    FD1S3AY    D              \beeper_u/piano_out_35  (to clk_in_c +)
+
+   Delay:                  20.183ns  (34.4% logic, 65.6% route), 16 logic levels.
+
+ Constraint Details:
+
+     20.183ns data_path tone_i0 to \beeper_u/piano_out_35 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 979.657ns
+
+ Path Details: tone_i0 to \beeper_u/piano_out_35
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              tone_i0 (from clk_in_c)
+Route        52   e 2.315                                  tone[0]
+LUT4        ---     0.493              A to Z              \beeper_u/i10219_2_lut_3_lut_4_lut
+Route         1   e 0.941                                  \beeper_u/n16115
+LUT4        ---     0.493              D to Z              \beeper_u/i4_4_lut
+Route         7   e 1.502                                  \beeper_u/n7_adj_625
+LUT4        ---     0.493              C to Z              \beeper_u/i6039_2_lut_rep_177_3_lut_4_lut
+Route        10   e 1.604                                  \beeper_u/n16908
+LUT4        ---     0.493              D to Z              \beeper_u/i1_2_lut_rep_166_4_lut_4_lut
+Route         2   e 1.141                                  \beeper_u/n16897
+LUT4        ---     0.493              B to Z              \beeper_u/i1_4_lut_adj_116
+Route         1   e 0.941                                  \beeper_u/n9251
+LUT4        ---     0.493              A to Z              \beeper_u/i2_4_lut_adj_115
+Route         1   e 0.941                                  \beeper_u/n15011
+A1_TO_FCO   ---     0.827           A[2] to COUT           \beeper_u/add_1182_9
+Route         1   e 0.020                                  \beeper_u/n14865
+FCI_TO_FCO  ---     0.157            CIN to COUT           \beeper_u/add_1182_11
+Route         1   e 0.020                                  \beeper_u/n14866
+FCI_TO_FCO  ---     0.157            CIN to COUT           \beeper_u/add_1182_13
+Route         1   e 0.020                                  \beeper_u/n14867
+FCI_TO_FCO  ---     0.157            CIN to COUT           \beeper_u/add_1182_15
+Route         1   e 0.020                                  \beeper_u/n14868
+FCI_TO_FCO  ---     0.157            CIN to COUT           \beeper_u/add_1182_17
+Route         1   e 0.020                                  \beeper_u/n14869
+FCI_TO_F    ---     0.598            CIN to S[2]           \beeper_u/add_1182_19
+Route         1   e 0.941                                  \beeper_u/n6686
+LUT4        ---     0.493              B to Z              \beeper_u/i13_4_lut
+Route         1   e 0.941                                  \beeper_u/n31
+LUT4        ---     0.493              A to Z              \beeper_u/i16_4_lut
+Route         1   e 0.941                                  \beeper_u/n34
+LUT4        ---     0.493              C to Z              \beeper_u/i1_4_lut_adj_104
+Route         1   e 0.941                                  \beeper_u/piano_out_N_348
+                  --------
+                   20.183  (34.4% logic, 65.6% route), 16 logic levels.
+
+
+Passed:  The following path meets requirements by 979.664ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3AX    CK             tone_i4  (from clk_in_c +)
+   Destination:    FD1S3AY    D              \beeper_u/piano_out_35  (to clk_in_c +)
+
+   Delay:                  20.176ns  (34.4% logic, 65.6% route), 16 logic levels.
+
+ Constraint Details:
+
+     20.176ns data_path tone_i4 to \beeper_u/piano_out_35 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 979.664ns
+
+ Path Details: tone_i4 to \beeper_u/piano_out_35
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              tone_i4 (from clk_in_c)
+Route        39   e 2.108                                  tone[4]
+LUT4        ---     0.493              A to Z              \beeper_u/tone_7__I_0_i12_2_lut
+Route         2   e 1.141                                  \beeper_u/n12
+LUT4        ---     0.493              A to Z              \beeper_u/i4_4_lut
+Route         7   e 1.502                                  \beeper_u/n7_adj_625
+LUT4        ---     0.493              C to Z              \beeper_u/i6039_2_lut_rep_177_3_lut_4_lut
+Route        10   e 1.604                                  \beeper_u/n16908
+LUT4        ---     0.493              D to Z              \beeper_u/i1_2_lut_rep_166_4_lut_4_lut
+Route         2   e 1.141                                  \beeper_u/n16897
+LUT4        ---     0.493              B to Z              \beeper_u/i1_4_lut_adj_116
+Route         1   e 0.941                                  \beeper_u/n9251
+LUT4        ---     0.493              A to Z              \beeper_u/i2_4_lut_adj_115
+Route         1   e 0.941                                  \beeper_u/n15011
+A1_TO_FCO   ---     0.827           A[2] to COUT           \beeper_u/add_1182_9
+Route         1   e 0.020                                  \beeper_u/n14865
+FCI_TO_FCO  ---     0.157            CIN to COUT           \beeper_u/add_1182_11
+Route         1   e 0.020                                  \beeper_u/n14866
+FCI_TO_FCO  ---     0.157            CIN to COUT           \beeper_u/add_1182_13
+Route         1   e 0.020                                  \beeper_u/n14867
+FCI_TO_FCO  ---     0.157            CIN to COUT           \beeper_u/add_1182_15
+Route         1   e 0.020                                  \beeper_u/n14868
+FCI_TO_FCO  ---     0.157            CIN to COUT           \beeper_u/add_1182_17
+Route         1   e 0.020                                  \beeper_u/n14869
+FCI_TO_F    ---     0.598            CIN to S[2]           \beeper_u/add_1182_19
+Route         1   e 0.941                                  \beeper_u/n6686
+LUT4        ---     0.493              B to Z              \beeper_u/i13_4_lut
+Route         1   e 0.941                                  \beeper_u/n31
+LUT4        ---     0.493              A to Z              \beeper_u/i16_4_lut
+Route         1   e 0.941                                  \beeper_u/n34
+LUT4        ---     0.493              C to Z              \beeper_u/i1_4_lut_adj_104
+Route         1   e 0.941                                  \beeper_u/piano_out_N_348
+                  --------
+                   20.176  (34.4% logic, 65.6% route), 16 logic levels.
+
+Report: 20.411 ns is the maximum delay for this constraint.
+
+
+<A name="mtw1_rs"></A><B><U><big>Timing Report Summary</big></U></B>
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk2 [get_nets \musicbox_u/clk_4Hz]     |  1000.000 ns|     7.374 ns|     4  
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk1 [get_nets                          |             |             |
+\cap1188_i2c_u/clk_200khz]              |            -|            -|     0  
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk0 [get_nets clk_in_c]                |  1000.000 ns|    20.411 ns|    17  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+
+<A name="mtw1_ts"></A><B><U><big>Timing summary:</big></U></B>
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover  44412 paths, 877 nets, and 2525 connections (81.7% coverage)
+
+
+Peak memory: 85344256 bytes, TRCE: 9379840 bytes, DLYMAN: 163840 bytes
+CPU_TIME_REPORT: 0 secs 
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

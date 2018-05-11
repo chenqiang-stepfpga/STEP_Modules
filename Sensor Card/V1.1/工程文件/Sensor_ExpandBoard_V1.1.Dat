@@ -1,0 +1,17 @@
+﻿Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=Pins~Integer~Pins~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Sensor_ExpandBoard_V1.1.PrjPCB|ReportField=ProjectFullPath~F:\Workspace\归档文件\Sensor Card\工程文件\Sensor_ExpandBoard_V1.1.PrjPCB|ReportField=Title~Bill of Materials For Project [Sensor_ExpandBoard_V1.1.PrjPCB] (No PCB Document Selected)|ReportField=TotalQuantity~162|ReportField=ReportTime~18:06:46|ReportField=ReportDate~2017/5/11|ReportField=ReportDateTime~2017/5/11 18:06:46|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2017/5/11|ReportField=CurrentTime~17:51:42|ReportField=Date~|ReportField=DocumentFullPathAndName~F:\Workspace\归档文件\Sensor Card\工程文件\Sensor_ExpandBoard_BH1750FV.SchDoc|ReportField=DocumentName~Sensor_ExpandBoard_BH1750FV.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=Function~Ambient Light Sensor|ReportField=ImagePath~|ReportField=ModifiedDate~2017/5/11|ReportField=Organization~|ReportField=ProjectName~Sensor_ExpandBoard_V1.1.PrjPCB|ReportField=Revision~V1.1|ReportField=Rule~|ReportField=SheetNumber~6|ReportField=SheetTotal~7|ReportField=Time~|ReportField=Title~Sensor Card|ReportField=DataSourceFileName~Sensor_ExpandBoard_V1.1.PrjPCB|ReportField=DataSourceFullPath~F:\Workspace\归档文件\Sensor Card\工程文件\Sensor_ExpandBoard_V1.1.PrjPCB
+100nF|无极性电容|C1, C2, C3, C4, C6, C9|0603-2|2|6
+10nF|无极性电容|C5|0603-2|2|1
+1nF|无极性电容|C7, C8|0603-2|2|2
+Red|发光二极管|D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19, D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D30, D31, D32, D33, D34, D35, D36, D37, D38, D39, D40, D41, D42, D43, D44, D45, D46, D47, D48, D49, D50, D51, D52, D53, D54, D55, D56, D57, D58, D59, D60, D61, D62, D63, D64, D65, D66, D67, D68, D69, D70, D71, D72, D73, D74, D75, D76, D77, D78, D79, D80, D81, D82, D83, D84, D85, D86, D87, D88, D89, D90, D91, D92, D93, D94, D95, D96, D97, D98, D99, D100, D101, D102, D103, D104, D105, D106, D107, D108, D109, D110, D111, D112, D113, D114, D115, D116, D117, D118, D119, D120, D121, D122, D123, D124, D125, D126, D127, D128|LED_0603_SMALL|2|128
+PIC-Express|PIC-Express|J1|PICE-M|52|1
+1K|Resistor|R1, R2, R3, R4, R5, R17, R18|R0603|2|7
+10K|贴片可调电阻，3 x 3，4P|R6|POT4MM-2|3|1
+200R|Resistor|R7|R0603|2|1
+20K|Resistor|R8|R0603|2|1
+470R|Resistor|R9, R10, R11, R12, R13, R14, R15, R16|R0603|2|8
+BH1750FV|环境光传感器|U1|WSOF6|6|1
+DS18B20Z+|温度传感器|U2|SOIC8_N|8|1
+LM393PS|双路差分比较器LM393|U3|PS8|8|1
+ITR9909|4-Pin Phototransistor Optocoupler|U4|IR_PAIRED_TUBE|4|1
+MPU6050|6轴传感器，QFN24|U5|QFN24|24|1
+W25Q64CVSS|Quad SPI Flash,64Mb,SOIC8|U6|SOIC8|8|1

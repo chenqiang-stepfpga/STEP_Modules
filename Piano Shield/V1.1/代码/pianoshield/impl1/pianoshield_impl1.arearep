@@ -1,0 +1,105 @@
+----------------------------------------------------------------------
+Report for cell pianoshield_top.TECH
+Register bits:  215 of 4635 (4.639%)
+I/O cells:      31
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                 BB         1          100.0
+                              CCU2D       108          100.0
+                            FD1P3AX        61          100.0
+                            FD1P3AY         3          100.0
+                            FD1P3IX        13          100.0
+                            FD1P3JX         5          100.0
+                            FD1S3AX        14          100.0
+                            FD1S3AY        24          100.0
+                            FD1S3IX        94          100.0
+                            FD1S3JX         1          100.0
+                                GSR         1          100.0
+                                 IB         2          100.0
+                            L6MUX21         2          100.0
+                               LUT4       463          100.0
+                                 OB        28          100.0
+                            PDPW8KC         1          100.0
+                              PFUMX        35          100.0
+                          ROM256X1A        10          100.0
+SUB MODULES
+                             beeper         1
+                        cap1188_i2c         1
+                        clk_quarter         1
+                            display         1
+                          music_box         1
+                                pwm         1
+                              TOTAL       872
+----------------------------------------------------------------------
+Report for cell music_box.v1
+Instance Path : musicbox_u
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        86           79.6
+                            FD1P3AX         6            9.8
+                            FD1S3AX         4           28.6
+                            FD1S3AY         1            4.2
+                            FD1S3IX        72           76.6
+                               LUT4        14            3.0
+                            PDPW8KC         1          100.0
+                              PFUMX         2            5.7
+                          ROM256X1A         2           20.0
+SUB MODULES
+                        clk_quarter         1
+                                pwm         1
+                              TOTAL       190
+----------------------------------------------------------------------
+Report for cell pwm.v1
+Instance Path : musicbox_u.speaker_I_0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        51           47.2
+                            FD1S3AX         1            7.1
+                            FD1S3IX        32           34.0
+                              TOTAL        84
+----------------------------------------------------------------------
+Report for cell clk_quarter.v1
+Instance Path : musicbox_u.clk_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        30           27.8
+                            FD1S3AX         1            7.1
+                            FD1S3IX        32           34.0
+                              TOTAL        63
+----------------------------------------------------------------------
+Report for cell display.v1
+Instance Path : display_u
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4        86           18.6
+                              PFUMX         5           14.3
+                              TOTAL        91
+----------------------------------------------------------------------
+Report for cell beeper.v1
+Instance Path : beeper_u
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        18           16.7
+                            FD1S3AY        16           66.7
+                            FD1S3IX        16           17.0
+                            FD1S3JX         1          100.0
+                               LUT4        91           19.7
+                              PFUMX         3            8.6
+                              TOTAL       145
+----------------------------------------------------------------------
+Report for cell cap1188_i2c.v1
+Instance Path : cap1188_i2c_u
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         4            3.7
+                            FD1P3AX        53           86.9
+                            FD1P3AY         3          100.0
+                            FD1P3IX        12           92.3
+                            FD1P3JX         5          100.0
+                            FD1S3AX         1            7.1
+                            FD1S3AY         1            4.2
+                            FD1S3IX         6            6.4
+                            L6MUX21         1           50.0
+                               LUT4       186           40.2
+                              PFUMX        17           48.6
+                              TOTAL       289

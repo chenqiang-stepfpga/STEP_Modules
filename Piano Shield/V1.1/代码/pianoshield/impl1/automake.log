@@ -1,0 +1,734 @@
+
+synthesis -f "pianoshield_impl1_lattice.synproj"
+synthesis:  version Diamond (64-bit) 3.8.0.115.3
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+Fri Jun 09 15:45:04 2017
+
+
+Command Line:  synthesis -f pianoshield_impl1_lattice.synproj -gui -msgset C:/Users/TEST/Desktop/pianoshield/promote.xml 
+
+    <postMsg mid="35002000" type="Info"    dynamic="0" navigation="0"  />
+Synthesis options:
+The -a option is MachXO2.
+The -s option is 4.
+The -t option is CSBGA132.
+The -d option is LCMXO2-4000HC.
+Using package CSBGA132.
+Using performance grade 4.
+                                                          
+
+##########################################################
+
+### Lattice Family : MachXO2
+
+### Device  : LCMXO2-4000HC
+
+### Package : CSBGA132
+
+### Speed   : 4
+
+##########################################################
+
+                                                          
+
+Optimization goal = Balanced
+Top-level module name = pianoshield_top.
+Target frequency = 1.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true
+DSP utilization = 100.000000 %
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p C:/Users/TEST/Desktop/pianoshield (searchpath added)
+-p C:/lscc/diamond/3.8_x64/ispfpga/xo2c00/data (searchpath added)
+-p C:/Users/TEST/Desktop/pianoshield/impl1 (searchpath added)
+-p C:/Users/TEST/Desktop/pianoshield (searchpath added)
+Verilog design file = C:/Users/TEST/Desktop/pianoshield/source/beeper.v
+Verilog design file = C:/Users/TEST/Desktop/pianoshield/source/cap1188_i2c.v
+Verilog design file = C:/Users/TEST/Desktop/pianoshield/source/clk_quarter.v
+Verilog design file = C:/Users/TEST/Desktop/pianoshield/source/define_reg.v
+Verilog design file = C:/Users/TEST/Desktop/pianoshield/source/display.v
+Verilog design file = C:/Users/TEST/Desktop/pianoshield/source/music_box.v
+Verilog design file = C:/Users/TEST/Desktop/pianoshield/source/pianoshield_top.v
+Verilog design file = C:/Users/TEST/Desktop/pianoshield/source/PWM.v
+NGD file = pianoshield_impl1.ngd
+-sdc option: SDC file input not used.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file c:/users/test/desktop/pianoshield/source/beeper.v. VERI-1482
+Analyzing Verilog file c:/users/test/desktop/pianoshield/source/cap1188_i2c.v. VERI-1482
+    <postMsg mid="35901328" type="Info"    dynamic="2" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/cap1188_i2c.v(18): " arg1="c:/users/test/desktop/pianoshield/source/define_reg.v" arg2="c:/users/test/desktop/pianoshield/source/cap1188_i2c.v" arg3="18"  />
+Analyzing Verilog file c:/users/test/desktop/pianoshield/source/clk_quarter.v. VERI-1482
+Analyzing Verilog file c:/users/test/desktop/pianoshield/source/define_reg.v. VERI-1482
+Analyzing Verilog file c:/users/test/desktop/pianoshield/source/display.v. VERI-1482
+Analyzing Verilog file c:/users/test/desktop/pianoshield/source/music_box.v. VERI-1482
+Analyzing Verilog file c:/users/test/desktop/pianoshield/source/pianoshield_top.v. VERI-1482
+Analyzing Verilog file c:/users/test/desktop/pianoshield/source/pwm.v. VERI-1482
+Analyzing Verilog file C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Top module name (Verilog): pianoshield_top
+    <postMsg mid="35901018" type="Info"    dynamic="2" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/pianoshield_top.v(18): " arg1="pianoshield_top" arg2="c:/users/test/desktop/pianoshield/source/pianoshield_top.v" arg3="18"  />
+    <postMsg mid="35901018" type="Info"    dynamic="2" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/cap1188_i2c.v(20): " arg1="cap1188_i2c" arg2="c:/users/test/desktop/pianoshield/source/cap1188_i2c.v" arg3="20"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/cap1188_i2c.v(43): " arg1="init_reg" arg2="c:/users/test/desktop/pianoshield/source/cap1188_i2c.v" arg3="43"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/cap1188_i2c.v(44): " arg1="init_dat" arg2="c:/users/test/desktop/pianoshield/source/cap1188_i2c.v" arg3="44"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/cap1188_i2c.v(51): " arg1="work_reg" arg2="c:/users/test/desktop/pianoshield/source/cap1188_i2c.v" arg3="51"  />
+    <postMsg mid="35901018" type="Info"    dynamic="2" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/beeper.v(18): " arg1="beeper" arg2="c:/users/test/desktop/pianoshield/source/beeper.v" arg3="18"  />
+    <postMsg mid="35901018" type="Info"    dynamic="2" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/music_box.v(18): " arg1="music_box" arg2="c:/users/test/desktop/pianoshield/source/music_box.v" arg3="18"  />
+    <postMsg mid="35901018" type="Info"    dynamic="2" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/clk_quarter.v(18): " arg1="clk_quarter" arg2="c:/users/test/desktop/pianoshield/source/clk_quarter.v" arg3="18"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/music_box.v(121): " arg1="8" arg2="5" arg3="c:/users/test/desktop/pianoshield/source/music_box.v" arg4="121"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/music_box.v(126): " arg1="8" arg2="5" arg3="c:/users/test/desktop/pianoshield/source/music_box.v" arg4="126"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/music_box.v(133): " arg1="8" arg2="5" arg3="c:/users/test/desktop/pianoshield/source/music_box.v" arg4="133"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/music_box.v(139): " arg1="8" arg2="5" arg3="c:/users/test/desktop/pianoshield/source/music_box.v" arg4="139"  />
+    <postMsg mid="35901018" type="Info"    dynamic="2" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/pwm.v(18): " arg1="pwm" arg2="c:/users/test/desktop/pianoshield/source/pwm.v" arg3="18"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/pwm.v(60): " arg1="32" arg2="1" arg3="c:/users/test/desktop/pianoshield/source/pwm.v" arg4="60"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/music_box.v(36): " arg1="freq" arg2="c:/users/test/desktop/pianoshield/source/music_box.v" arg3="36"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/music_box.v(37): " arg1="PUA" arg2="c:/users/test/desktop/pianoshield/source/music_box.v" arg3="37"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/music_box.v(38): " arg1="PUB" arg2="c:/users/test/desktop/pianoshield/source/music_box.v" arg3="38"  />
+    <postMsg mid="35901018" type="Info"    dynamic="2" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/display.v(18): " arg1="display" arg2="c:/users/test/desktop/pianoshield/source/display.v" arg3="18"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/display.v(27): " arg1="seg" arg2="c:/users/test/desktop/pianoshield/source/display.v" arg3="27"  />
+Last elaborated design is pianoshield_top()
+Loading NGL library 'C:/lscc/diamond/3.8_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.8_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.8_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.8_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'xo2c4000.nph' in environment: C:/lscc/diamond/3.8_x64/ispfpga.
+Package Status:                     Final          Version 1.44.
+Top-level module name = pianoshield_top.
+    <postMsg mid="35931038" type="Warning" dynamic="2" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/cap1188_i2c.v(43): " arg1="init_reg_original_ramnet" arg2="c:/users/test/desktop/pianoshield/source/cap1188_i2c.v" arg3="43"  />
+    <postMsg mid="35931038" type="Warning" dynamic="2" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/cap1188_i2c.v(44): " arg1="init_dat_original_ramnet" arg2="c:/users/test/desktop/pianoshield/source/cap1188_i2c.v" arg3="44"  />
+    <postMsg mid="35931038" type="Warning" dynamic="2" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/cap1188_i2c.v(51): " arg1="work_reg_original_ramnet" arg2="c:/users/test/desktop/pianoshield/source/cap1188_i2c.v" arg3="51"  />
+    <postMsg mid="35931038" type="Warning" dynamic="2" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/music_box.v(36): " arg1="freq_original_ramnet" arg2="c:/users/test/desktop/pianoshield/source/music_box.v" arg3="36"  />
+    <postMsg mid="35931038" type="Warning" dynamic="2" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/music_box.v(37): " arg1="PUA_original_ramnet" arg2="c:/users/test/desktop/pianoshield/source/music_box.v" arg3="37"  />
+    <postMsg mid="35931038" type="Warning" dynamic="2" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/music_box.v(38): " arg1="PUB_original_ramnet" arg2="c:/users/test/desktop/pianoshield/source/music_box.v" arg3="38"  />
+    <postMsg mid="35931038" type="Warning" dynamic="2" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/display.v(27): " arg1="seg_original_ramnet" arg2="c:/users/test/desktop/pianoshield/source/display.v" arg3="27"  />
+    <postMsg mid="35001774" type="Info"    dynamic="2" navigation="0" arg0="\musicbox_u/state" arg1="one-hot"  />
+State machine has 3 reachable states with original encodings of:
+
+ 00 
+
+ 01 
+
+ 10 
+
+original encoding -> new encoding (one-hot encoding)
+
+ 00 -> 001
+
+ 01 -> 010
+
+ 10 -> 100
+
+
+
+
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="0" arg1="\musicbox_u/state_FSM"  />
+    <postMsg mid="35001748" type="Warning" dynamic="2" navigation="0" arg0="0" arg1="\musicbox_u/pucounter_max"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="1" arg1="\musicbox_u/pucounter_max"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="2" arg1="\musicbox_u/pucounter_max"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="3" arg1="\musicbox_u/pucounter_max"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="5" arg1="\musicbox_u/pucounter_max"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="6" arg1="\musicbox_u/pucounter_max"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="7" arg1="\musicbox_u/pucounter_max"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="0" arg1="\musicbox_u/freq_index"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="c:/users/test/desktop/pianoshield/source/cap1188_i2c.v(302): " arg1="\cap1188_i2c_u/state_back_i0_i3" arg2="c:/users/test/desktop/pianoshield/source/cap1188_i2c.v" arg3="302"  />
+GSR instance connected to net rst_n_in_c.
+Duplicate register/latch removal. \cap1188_i2c_u/data_wr_i0_i7 is a one-to-one match with \cap1188_i2c_u/data_wr_i0_i3.
+Duplicate register/latch removal. \cap1188_i2c_u/data_wr_i0_i6 is a one-to-one match with \cap1188_i2c_u/data_wr_i0_i4.
+Duplicate register/latch removal. \cap1188_i2c_u/work_num_i0_i3 is a one-to-one match with \cap1188_i2c_u/work_num_i0_i2.
+Duplicate register/latch removal. \cap1188_i2c_u/work_num_i0_i1 is a one-to-one match with \cap1188_i2c_u/work_num_i0_i3.
+Applying 1.000000 MHz constraint to all clocks
+
+    <postMsg mid="35001611" type="Warning" dynamic="0" navigation="0"  />
+Results of NGD DRC are available in pianoshield_top_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.8_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.8_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.8_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.8_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+DRC complete with no errors or warnings
+
+Design Results:
+    869 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file pianoshield_impl1.ngd.
+
+################### Begin Area Report (pianoshield_top)######################
+Number of register bits => 215 of 4635 (4 % )
+BB => 1
+CCU2D => 108
+FD1P3AX => 61
+FD1P3AY => 3
+FD1P3IX => 13
+FD1P3JX => 5
+FD1S3AX => 14
+FD1S3AY => 24
+FD1S3IX => 94
+FD1S3JX => 1
+GSR => 1
+IB => 2
+L6MUX21 => 2
+LUT4 => 463
+OB => 28
+PDPW8KC => 1
+PFUMX => 35
+ROM256X1A => 10
+################### End Area Report ##################
+
+################### Begin BlackBox Report ######################
+TSALL => 1
+################### End BlackBox Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 3
+  Net : clk_in_c, loads : 205
+  Net : cap1188_i2c_u/clk_200khz, loads : 15
+  Net : musicbox_u/clk_inst/clk_4Hz, loads : 8
+Clock Enable Nets
+Number of Clock Enables: 41
+Top 10 highest fanout Clock Enables:
+  Net : cap1188_i2c_u/clk_in_c_enable_59, loads : 9
+  Net : cap1188_i2c_u/clk_in_c_enable_41, loads : 8
+  Net : cap1188_i2c_u/clk_in_c_enable_30, loads : 8
+  Net : rst_n_in_c, loads : 6
+  Net : cap1188_i2c_u/clk_in_c_enable_60, loads : 5
+  Net : musicbox_u/state_1_N_389_0, loads : 4
+  Net : cap1188_i2c_u/clk_in_c_enable_11, loads : 3
+  Net : cap1188_i2c_u/clk_in_c_enable_74, loads : 2
+  Net : cap1188_i2c_u/clk_in_c_enable_15, loads : 2
+  Net : cap1188_i2c_u/sda_out_N_285, loads : 2
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : cap1188_i2c_u/state_0, loads : 62
+  Net : cap1188_i2c_u/state_1, loads : 56
+  Net : cap1188_i2c_u/state_2, loads : 48
+  Net : rst_n_in_c, loads : 34
+  Net : musicbox_u/clk_inst/counter_31__N_511, loads : 33
+  Net : musicbox_u/speaker_N_412_31, loads : 32
+  Net : musicbox_u/speaker_I_0/n6768, loads : 32
+  Net : cap1188_i2c_u/state_3, loads : 29
+  Net : cap1188_i2c_u/cnt_work_3, loads : 25
+  Net : tone_3, loads : 22
+################### End Clock Report ##################
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk2 [get_nets \musicbox_u/clk_4Hz]     |    1.000 MHz|  135.612 MHz|     4  
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk1 [get_nets clk_200khz]              |            -|            -|     0  
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk0 [get_nets clk_in_c]                |    1.000 MHz|   79.064 MHz|     7  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Peak Memory Usage: 75.539  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 3.666  secs
+--------------------------------------------------------------
+
+map -a "MachXO2" -p LCMXO2-4000HC -t CSBGA132 -s 4 -oc Commercial   "pianoshield_impl1.ngd" -o "pianoshield_impl1_map.ncd" -pr "pianoshield_impl1.prf" -mp "pianoshield_impl1.mrp" -lpf "C:/Users/TEST/Desktop/pianoshield/impl1/pianoshield_impl1.lpf" -lpf "C:/Users/TEST/Desktop/pianoshield/pianoshield.lpf" -c 0            
+map:  version Diamond (64-bit) 3.8.0.115.3
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+   Process the file: pianoshield_impl1.ngd
+   Picdevice="LCMXO2-4000HC"
+
+   Pictype="CSBGA132"
+
+   Picspeed=4
+
+   Remove unused logic
+
+   Do not produce over sized NCDs.
+
+Part used: LCMXO2-4000HCCSBGA132, Performance used: 4.
+
+Loading device for application map from file 'xo2c4000.nph' in environment: C:/lscc/diamond/3.8_x64/ispfpga.
+Package Status:                     Final          Version 1.44.
+
+Running general design DRC...
+
+Removing unused logic...
+
+Optimizing...
+
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="musicbox_u/mux_339"  />
+
+
+
+Design Summary:
+   Number of registers:    215 out of  4635 (5%)
+      PFU registers:          215 out of  4320 (5%)
+      PIO registers:            0 out of   315 (0%)
+   Number of SLICEs:       413 out of  2160 (19%)
+      SLICEs as Logic/ROM:    413 out of  2160 (19%)
+      SLICEs as RAM:            0 out of  1620 (0%)
+      SLICEs as Carry:        108 out of  2160 (5%)
+   Number of LUT4s:        787 out of  4320 (18%)
+      Number used as logic LUTs:        571
+      Number used as distributed RAM:     0
+      Number used as ripple logic:      216
+      Number used as shift registers:     0
+   Number of PIO sites used: 31 + 4(JTAG) out of 105 (33%)
+   Number of block RAMs:  1 out of 10 (10%)
+   Number of GSRs:  1 out of 1 (100%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+   Number of clocks:  3
+     Net clk_in_c: 132 loads, 132 rising, 0 falling (Driver: PIO clk_in )
+     Net cap1188_i2c_u/clk_200khz: 3 loads, 3 rising, 0 falling (Driver: cap1188_i2c_u/clk_200khz_185 )
+     Net musicbox_u/clk_4Hz: 5 loads, 5 rising, 0 falling (Driver: musicbox_u/clk_inst/clk_out_12 )
+   Number of Clock Enables:  41
+     Net rst_n_in_c: 5 loads, 4 LSLICEs
+     Net clk_in_c_enable_46: 1 loads, 1 LSLICEs
+     Net clk_in_c_enable_61: 4 loads, 4 LSLICEs
+     Net clk_in_c_enable_56: 1 loads, 1 LSLICEs
+     Net clk_in_c_enable_48: 1 loads, 1 LSLICEs
+     Net clk_in_c_enable_54: 1 loads, 1 LSLICEs
+     Net clk_in_c_enable_55: 1 loads, 1 LSLICEs
+     Net clk_in_c_enable_32: 2 loads, 2 LSLICEs
+     Net musicbox_u/state_1_N_389_0: 1 loads, 1 LSLICEs
+     Net clk_in_c_enable_72: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_1: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_15: 2 loads, 2 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_11: 2 loads, 2 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_12: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_6: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_41: 4 loads, 4 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_30: 4 loads, 4 LSLICEs
+     Net cap1188_i2c_u/clk_200khz_enable_1: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_44: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_14: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_60: 3 loads, 3 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_59: 5 loads, 5 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_21: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_74: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_73: 2 loads, 2 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_33: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_52: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_49: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_53: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_65: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_66: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_68: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_64: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_69: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_70: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_63: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/sda_out_N_285: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_62: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_57: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_67: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_71: 1 loads, 1 LSLICEs
+   Number of LSRs:  12
+     Net n12044: 2 loads, 2 LSLICEs
+     Net cnt_200khz_5__N_145: 4 loads, 4 LSLICEs
+     Net n12012: 1 loads, 1 LSLICEs
+     Net musicbox_u/n5852: 5 loads, 5 LSLICEs
+     Net musicbox_u/speaker_I_0/n6768: 17 loads, 17 LSLICEs
+     Net musicbox_u/clk_inst/counter_31__N_511: 17 loads, 17 LSLICEs
+     Net beeper_u/n5847: 9 loads, 9 LSLICEs
+     Net beeper_u/time_end_15__N_341: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/n9996: 2 loads, 2 LSLICEs
+     Net cap1188_i2c_u/n9998: 3 loads, 3 LSLICEs
+     Net cap1188_i2c_u/n9994: 2 loads, 2 LSLICEs
+     Net cap1188_i2c_u/n11597: 3 loads, 3 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net counter_3: 87 loads
+     Net counter_1: 78 loads
+     Net counter_2: 78 loads
+     Net counter_6: 76 loads
+     Net state_0: 63 loads
+     Net state_1: 57 loads
+     Net state_2: 49 loads
+     Net counter_5: 40 loads
+     Net counter_4: 37 loads
+     Net counter_7: 34 loads
+ 
+
+   Number of warnings:  1
+   Number of errors:    0
+
+
+
+Total CPU Time: 0 secs  
+Total REAL Time: 0 secs  
+Peak Memory Usage: 53 MB
+
+Dumping design to file pianoshield_impl1_map.ncd.
+
+ncd2vdb "pianoshield_impl1_map.ncd" ".vdbs/pianoshield_impl1_map.vdb"
+
+Loading device for application ncd2vdb from file 'xo2c4000.nph' in environment: C:/lscc/diamond/3.8_x64/ispfpga.
+
+mpartrce -p "pianoshield_impl1.p2t" -f "pianoshield_impl1.p3t" -tf "pianoshield_impl1.pt" "pianoshield_impl1_map.ncd" "pianoshield_impl1.ncd"
+
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
+
+Lattice Place and Route Report for Design "pianoshield_impl1_map.ncd"
+Fri Jun 09 15:45:10 2017
+
+PAR: Place And Route Diamond (64-bit) 3.8.0.115.3.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Users/TEST/Desktop/pianoshield/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF pianoshield_impl1_map.ncd pianoshield_impl1.dir/5_1.ncd pianoshield_impl1.prf
+Preference file: pianoshield_impl1.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file pianoshield_impl1_map.ncd.
+Design name: pianoshield_top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     CSBGA132
+Performance: 4
+Loading device for application par from file 'xo2c4000.nph' in environment: C:/lscc/diamond/3.8_x64/ispfpga.
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)   31+4(JTAG)/280     13% used
+                  31+4(JTAG)/105     33% bonded
+
+   SLICE            413/2160         19% used
+
+   GSR                1/1           100% used
+   EBR                1/10           10% used
+
+
+INFO: Design contains EBR with ASYNC Reset Mode that has a limitation: The use of the EBR block asynchronous reset requires that certain timing be met between the clock and the reset within the memory block. See the device specific data sheet for additional details.
+INFO: Design contains pre-loadable EBR during configuration that has a requirement: Since the GSR is disabled for the EBR, make sure write enable and chip enable are inactive during wake-up, so that the pre-loaded initialization values will not be corrupted during wake-up state.
+Number of Signals: 1010
+Number of Connections: 3059
+
+Pin Constraint Summary:
+   31 out of 31 pins locked (100% locked).
+
+The following 1 signal is selected to use the primary clock routing resources:
+    clk_in_c (driver: clk_in, clk load #: 132)
+
+    <postMsg mid="61061008" type="Warning" dynamic="5" navigation="0" arg0="clk_in_c" arg1="Primary" arg2="clk_in" arg3="C1" arg4="Primary"  />
+
+The following 3 signals are selected to use the secondary clock routing resources:
+    musicbox_u/speaker_I_0/n6768 (driver: musicbox_u/speaker_I_0/SLICE_54, clk load #: 0, sr load #: 17, ce load #: 0)
+    musicbox_u/clk_inst/counter_31__N_511 (driver: musicbox_u/clk_inst/SLICE_66, clk load #: 0, sr load #: 17, ce load #: 0)
+    musicbox_u/clk_4Hz (driver: musicbox_u/clk_inst/SLICE_66, clk load #: 5, sr load #: 0, ce load #: 0)
+
+Signal rst_n_in_c is selected as Global Set/Reset.
+Starting Placer Phase 0.
+............
+Finished Placer Phase 0.  REAL time: 0 secs 
+
+Starting Placer Phase 1.
+....................
+Placer score = 129602.
+Finished Placer Phase 1.  REAL time: 5 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  128305
+Finished Placer Phase 2.  REAL time: 5 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  General PIO: 1 out of 280 (0%)
+  PLL        : 0 out of 2 (0%)
+  DCM        : 0 out of 2 (0%)
+  DCC        : 0 out of 8 (0%)
+
+Quadrants All (TL, TR, BL, BR) - Global Clocks:
+  PRIMARY "clk_in_c" from comp "clk_in" on PIO site "C1 (PL4A)", clk load = 132
+  SECONDARY "musicbox_u/speaker_I_0/n6768" from F1 on comp "musicbox_u/speaker_I_0/SLICE_54" on site "R12C15A", clk load = 0, ce load = 0, sr load = 17
+  SECONDARY "musicbox_u/clk_inst/counter_31__N_511" from F1 on comp "musicbox_u/clk_inst/SLICE_66" on site "R20C15A", clk load = 0, ce load = 0, sr load = 17
+  SECONDARY "musicbox_u/clk_4Hz" from Q1 on comp "musicbox_u/clk_inst/SLICE_66" on site "R20C15A", clk load = 5, ce load = 0, sr load = 0
+
+  PRIMARY  : 1 out of 8 (12%)
+  SECONDARY: 3 out of 8 (37%)
+
+Edge Clocks:
+  No edge clock selected.
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   31 + 4(JTAG) out of 280 (12.5%) PIO sites used.
+   31 + 4(JTAG) out of 105 (33.3%) bonded PIO sites used.
+   Number of PIO comps: 31; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+-----------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref |
++----------+----------------+------------+-----------+
+| 0        | 11 / 26 ( 42%) | 3.3V       | -         |
+| 1        | 5 / 26 ( 19%)  | 3.3V       | -         |
+| 2        | 6 / 28 ( 21%)  | 3.3V       | -         |
+| 3        | 1 / 7 ( 14%)   | 3.3V       | -         |
+| 4        | 4 / 8 ( 50%)   | 3.3V       | -         |
+| 5        | 4 / 10 ( 40%)  | 3.3V       | -         |
++----------+----------------+------------+-----------+
+
+Total placer CPU time: 4 secs 
+
+Dumping design to file pianoshield_impl1.dir/5_1.ncd.
+
+
+-----------------------------------------------------------------
+INFO - par: ASE feature is off due to non timing-driven settings.  
+-----------------------------------------------------------------
+
+0 connections routed; 3059 unrouted.
+Starting router resource preassignment
+
+    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=cap1188_i2c_u/clk_200khz loads=17 clock_loads=3"  />
+
+Completed router resource preassignment. Real time: 6 secs 
+
+Start NBR router at 15:45:16 06/09/17
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 15:45:16 06/09/17
+
+Start NBR section for initial routing at 15:45:16 06/09/17
+Level 4, iteration 1
+54(0.02%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; real time: 7 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 15:45:17 06/09/17
+Level 4, iteration 1
+18(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; real time: 7 secs 
+Level 4, iteration 2
+7(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; real time: 7 secs 
+Level 4, iteration 3
+2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; real time: 7 secs 
+Level 4, iteration 4
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 7 secs 
+
+Start NBR section for re-routing at 15:45:17 06/09/17
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 7 secs 
+
+Start NBR section for post-routing at 15:45:17 06/09/17
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : <n/a>
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=cap1188_i2c_u/clk_200khz loads=17 clock_loads=3"  />
+
+Total CPU time 6 secs 
+Total REAL time: 7 secs 
+Completely routed.
+End of route.  3059 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file pianoshield_impl1.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = <n/a>
+PAR_SUMMARY::Timing score<setup/<ns>> = <n/a>
+PAR_SUMMARY::Worst  slack<hold /<ns>> = <n/a>
+PAR_SUMMARY::Timing score<hold /<ns>> = <n/a>
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 7 secs 
+Total REAL time to completion: 8 secs 
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+bitgen -f "pianoshield_impl1.t2b" -w "pianoshield_impl1.ncd" -jedec "pianoshield_impl1.prf"
+
+
+BITGEN: Bitstream Generator Diamond (64-bit) 3.8.0.115.3
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file pianoshield_impl1.ncd.
+Design name: pianoshield_top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     CSBGA132
+Performance: 4
+Loading device for application Bitgen from file 'xo2c4000.nph' in environment: C:/lscc/diamond/3.8_x64/ispfpga.
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
+
+Running DRC.
+INFO: Design contains EBR with ASYNC Reset Mode that has a limitation: The use of the EBR block asynchronous reset requires that certain timing be met between the clock and the reset within the memory block. See the device specific data sheet for additional details.
+INFO: Design contains pre-loadable EBR during configuration that has a requirement: Since the GSR is disabled for the EBR, make sure write enable and chip enable are inactive during wake-up, so that the pre-loaded initialization values will not be corrupted during wake-up state.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from pianoshield_impl1.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                         2.08**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                      JTAG_PORT  |                       ENABLE**  |
++---------------------------------+---------------------------------+
+|                       SDM_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                       I2C_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|        MUX_CONFIGURATION_PORTS  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  CONFIGURATION  |                          CFG**  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                           ON**  |
++---------------------------------+---------------------------------+
+|                        MY_ASSP  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               ONE_TIME_PROGRAM  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 ENABLE_TRANSFR  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  SHAREDEBRINIT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|            BACKGROUND_RECONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+ 
+Bitstream Status: Final           Version 1.92.
+ 
+Saving bit stream in "pianoshield_impl1.jed".
+ 
+===========
+UFM Summary.
+===========
+UFM Size:        767 Pages (128*767 Bits).
+UFM Utilization: General Purpose Flash Memory.
+ 
+Available General Purpose Flash Memory:  767 Pages (Page 0 to Page 766).
+Initialized UFM Pages:                     0 Page.
+ 

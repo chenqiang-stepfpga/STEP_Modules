@@ -1,0 +1,5 @@
+
+
+-g RamCfg:Reset
+
+-path "C:/Users/22822/Desktop/demo/Sensor_Board_Demo/Interface_BH1750"  

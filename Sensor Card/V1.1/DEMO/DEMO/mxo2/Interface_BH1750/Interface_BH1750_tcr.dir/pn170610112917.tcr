@@ -1,0 +1,5 @@
+#Start recording tcl command: 6/10/2017 10:59:23
+#Project Location: C:/Users/22822/Desktop/demo/Sensor_Board_Demo/Interface_BH1750; Project name: Interface_BH1750
+prj_project open "C:/Users/22822/Desktop/demo/Sensor_Board_Demo/Interface_BH1750/Interface_BH1750.ldf"
+prj_run Synthesis -impl impl_Interface_BH1750 -task Lattice_Synthesis
+#Stop recording: 6/10/2017 11:29:17

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Report>
+<ReportView version="2.0">
+    <Implement name="impl_Interface_BH1750">
+        <ToolReport id="tooldec" path="" status="0"/>
+        <ToolReport id="toolhle_genhierarchy" path="F:/MCU_FPGA/STEP/MyExample/Expand_Board/General_Interface/General_Interface/General_Interface/Interface_BH1750/impl_Interface_BH1750/hdla_gen_hierarchy.html" status="1"/>
+        <ToolReport id="toolpio" path="" status="2"/>
+        <ToolReport id="toolsso" path="" status="2"/>
+    </Implement>
+</ReportView>

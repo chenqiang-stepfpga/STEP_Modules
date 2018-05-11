@@ -1,0 +1,864 @@
+
+       Lattice Mapping Report File for Design Module 'pianoshield_top'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-4000HC -t CSBGA132 -s 4 -oc Commercial
+     pianoshield_impl1.ngd -o pianoshield_impl1_map.ncd -pr
+     pianoshield_impl1.prf -mp pianoshield_impl1.mrp -lpf
+     C:/Users/TEST/Desktop/pianoshield/impl1/pianoshield_impl1.lpf -lpf
+     C:/Users/TEST/Desktop/pianoshield/pianoshield.lpf -c 0 -gui -msgset
+     C:/Users/TEST/Desktop/pianoshield/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-4000HCCSBGA132
+Target Performance:   4
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.8.0.115.3
+Mapped on:  06/09/17  15:45:08
+
+Design Summary
+--------------
+
+   Number of registers:    215 out of  4635 (5%)
+      PFU registers:          215 out of  4320 (5%)
+      PIO registers:            0 out of   315 (0%)
+   Number of SLICEs:       413 out of  2160 (19%)
+      SLICEs as Logic/ROM:    413 out of  2160 (19%)
+      SLICEs as RAM:            0 out of  1620 (0%)
+      SLICEs as Carry:        108 out of  2160 (5%)
+   Number of LUT4s:        787 out of  4320 (18%)
+      Number used as logic LUTs:        571
+      Number used as distributed RAM:     0
+      Number used as ripple logic:      216
+      Number used as shift registers:     0
+   Number of PIO sites used: 31 + 4(JTAG) out of 105 (33%)
+   Number of block RAMs:  1 out of 10 (10%)
+   Number of GSRs:  1 out of 1 (100%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  3
+     Net clk_in_c: 132 loads, 132 rising, 0 falling (Driver: PIO clk_in )
+     Net cap1188_i2c_u/clk_200khz: 3 loads, 3 rising, 0 falling (Driver:
+
+                                    Page 1
+
+
+
+
+Design:  pianoshield_top                               Date:  06/09/17  15:45:08
+
+Design Summary (cont)
+---------------------
+     cap1188_i2c_u/clk_200khz_185 )
+     Net musicbox_u/clk_4Hz: 5 loads, 5 rising, 0 falling (Driver:
+     musicbox_u/clk_inst/clk_out_12 )
+   Number of Clock Enables:  41
+     Net rst_n_in_c: 5 loads, 4 LSLICEs
+     Net clk_in_c_enable_46: 1 loads, 1 LSLICEs
+     Net clk_in_c_enable_61: 4 loads, 4 LSLICEs
+     Net clk_in_c_enable_56: 1 loads, 1 LSLICEs
+     Net clk_in_c_enable_48: 1 loads, 1 LSLICEs
+     Net clk_in_c_enable_54: 1 loads, 1 LSLICEs
+     Net clk_in_c_enable_55: 1 loads, 1 LSLICEs
+     Net clk_in_c_enable_32: 2 loads, 2 LSLICEs
+     Net musicbox_u/state_1_N_389_0: 1 loads, 1 LSLICEs
+     Net clk_in_c_enable_72: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_1: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_15: 2 loads, 2 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_11: 2 loads, 2 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_12: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_6: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_41: 4 loads, 4 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_30: 4 loads, 4 LSLICEs
+     Net cap1188_i2c_u/clk_200khz_enable_1: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_44: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_14: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_60: 3 loads, 3 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_59: 5 loads, 5 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_21: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_74: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_73: 2 loads, 2 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_33: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_52: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_49: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_53: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_65: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_66: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_68: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_64: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_69: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_70: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_63: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/sda_out_N_285: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_62: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_57: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_67: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/clk_in_c_enable_71: 1 loads, 1 LSLICEs
+   Number of LSRs:  12
+     Net n12044: 2 loads, 2 LSLICEs
+     Net cnt_200khz_5__N_145: 4 loads, 4 LSLICEs
+     Net n12012: 1 loads, 1 LSLICEs
+     Net musicbox_u/n5852: 5 loads, 5 LSLICEs
+     Net musicbox_u/speaker_I_0/n6768: 17 loads, 17 LSLICEs
+     Net musicbox_u/clk_inst/counter_31__N_511: 17 loads, 17 LSLICEs
+     Net beeper_u/n5847: 9 loads, 9 LSLICEs
+     Net beeper_u/time_end_15__N_341: 1 loads, 1 LSLICEs
+     Net cap1188_i2c_u/n9996: 2 loads, 2 LSLICEs
+     Net cap1188_i2c_u/n9998: 3 loads, 3 LSLICEs
+
+                                    Page 2
+
+
+
+
+Design:  pianoshield_top                               Date:  06/09/17  15:45:08
+
+Design Summary (cont)
+---------------------
+     Net cap1188_i2c_u/n9994: 2 loads, 2 LSLICEs
+     Net cap1188_i2c_u/n11597: 3 loads, 3 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net counter_3: 87 loads
+     Net counter_1: 78 loads
+     Net counter_2: 78 loads
+     Net counter_6: 76 loads
+     Net state_0: 63 loads
+     Net state_1: 57 loads
+     Net state_2: 49 loads
+     Net counter_5: 40 loads
+     Net counter_4: 37 loads
+     Net counter_7: 34 loads
+
+
+
+
+   Number of warnings:  1
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: The reset of EBR 'musicbox_u/mux_339' cannot be controlled. The
+     local reset is not connected to any control signal and set to GND. The
+     global reset is disabled via GSR property. To control the EBR reset, either
+     connect the local reset to a control signal or force the GSR property to be
+     enabled.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| led_out[6]          | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led_out[7]          | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| rst_n_in            | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| clk_in              | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| segment_led_2[0]    | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| segment_led_2[1]    | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| segment_led_2[2]    | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| segment_led_2[3]    | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| segment_led_2[4]    | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 3
+
+
+
+
+Design:  pianoshield_top                               Date:  06/09/17  15:45:08
+
+IO (PIO) Attributes (cont)
+--------------------------
+| segment_led_2[5]    | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| segment_led_2[6]    | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| segment_led_2[7]    | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| segment_led_2[8]    | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| segment_led_1[0]    | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| segment_led_1[1]    | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| segment_led_1[2]    | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| segment_led_1[3]    | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| segment_led_1[4]    | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| segment_led_1[5]    | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| segment_led_1[6]    | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| segment_led_1[7]    | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| segment_led_1[8]    | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led_out[0]          | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led_out[1]          | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led_out[2]          | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led_out[3]          | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led_out[4]          | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led_out[5]          | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| beepout             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| scl_out             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| sda_out             | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Signal cap1188_i2c_u/n1 was merged into signal state_0
+Signal n7580 was merged into signal cap1188_i2c_u/sda_out_N_275
+Signal VCC_net undriven or does not drive anything - clipped.
+Signal n16662 undriven or does not drive anything - clipped.
+Signal cap1188_i2c_u/cnt_200khz_1365_add_4_7/S1 undriven or does not drive
+     anything - clipped.
+Signal cap1188_i2c_u/cnt_200khz_1365_add_4_7/CO undriven or does not drive
+     anything - clipped.
+
+                                    Page 4
+
+
+
+
+Design:  pianoshield_top                               Date:  06/09/17  15:45:08
+
+Removed logic (cont)
+--------------------
+Signal cap1188_i2c_u/cnt_200khz_1365_add_4_1/S0 undriven or does not drive
+     anything - clipped.
+Signal cap1188_i2c_u/cnt_200khz_1365_add_4_1/CI undriven or does not drive
+     anything - clipped.
+Signal beeper_u/time_cnt_1366_add_4_1/S0 undriven or does not drive anything -
+     clipped.
+Signal beeper_u/time_cnt_1366_add_4_1/CI undriven or does not drive anything -
+     clipped.
+Signal beeper_u/time_cnt_1366_add_4_17/S1 undriven or does not drive anything -
+     clipped.
+Signal beeper_u/time_cnt_1366_add_4_17/CO undriven or does not drive anything -
+     clipped.
+Signal beeper_u/add_1179_1/S0 undriven or does not drive anything - clipped.
+Signal beeper_u/add_1179_1/CI undriven or does not drive anything - clipped.
+Signal beeper_u/add_1179_17/CO undriven or does not drive anything - clipped.
+Signal musicbox_u/clk_inst/add_8484_2/S1 undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/clk_inst/add_8484_2/S0 undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/clk_inst/add_8484_2/CI undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/clk_inst/add_8484_4/S1 undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/clk_inst/add_8484_4/S0 undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/clk_inst/add_8484_6/S1 undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/clk_inst/add_8484_6/S0 undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/clk_inst/add_8484_8/S1 undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/clk_inst/add_8484_8/S0 undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/clk_inst/add_8484_10/S1 undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/clk_inst/add_8484_10/S0 undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/clk_inst/add_8484_12/S1 undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/clk_inst/add_8484_12/S0 undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/clk_inst/add_8484_14/S1 undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/clk_inst/add_8484_14/S0 undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/clk_inst/add_8484_16/S1 undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/clk_inst/add_8484_16/S0 undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/clk_inst/add_8484_18/S1 undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/clk_inst/add_8484_18/S0 undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/clk_inst/add_8484_20/S1 undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/clk_inst/add_8484_20/S0 undriven or does not drive anything -
+
+                                    Page 5
+
+
+
+
+Design:  pianoshield_top                               Date:  06/09/17  15:45:08
+
+Removed logic (cont)
+--------------------
+     clipped.
+Signal musicbox_u/clk_inst/add_8484_22/S1 undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/clk_inst/add_8484_22/S0 undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/clk_inst/add_8484_24/S1 undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/clk_inst/add_8484_24/S0 undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/clk_inst/add_8484_26/S0 undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/clk_inst/add_8484_26/CO undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/clk_inst/counter_1368_add_4_1/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/clk_inst/counter_1368_add_4_1/CI undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/clk_inst/counter_1368_add_4_33/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/clk_inst/counter_1368_add_4_33/CO undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_31/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_31/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_33/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_33/CO undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/counter_1369_add_4_1/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/counter_1369_add_4_1/CI undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_1/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_1/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_1/CI undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_3/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_3/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_5/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_5/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_7/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_7/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_9/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_9/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_11/S1 undriven or does not drive
+
+                                    Page 6
+
+
+
+
+Design:  pianoshield_top                               Date:  06/09/17  15:45:08
+
+Removed logic (cont)
+--------------------
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_11/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_13/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_13/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_15/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_15/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_17/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_17/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_19/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_19/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_21/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_21/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_23/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_23/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_25/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_25/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_27/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_27/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_29/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_29/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_31/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_31/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_33/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1191_add_2_33/CO undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_1/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_1/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_1/CI undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_3/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_3/S0 undriven or does not drive
+
+                                    Page 7
+
+
+
+
+Design:  pianoshield_top                               Date:  06/09/17  15:45:08
+
+Removed logic (cont)
+--------------------
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_5/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_5/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_7/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_7/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_9/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_9/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_11/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_11/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_13/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_13/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_15/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_15/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_17/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_17/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_19/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_19/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_21/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_21/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/counter_1369_add_4_33/S1 undriven or does not
+     drive anything - clipped.
+Signal musicbox_u/speaker_I_0/counter_1369_add_4_33/CO undriven or does not
+     drive anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_23/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_23/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_25/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_25/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_27/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_27/S0 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_29/S1 undriven or does not drive
+     anything - clipped.
+Signal musicbox_u/speaker_I_0/sub_1189_add_2_29/S0 undriven or does not drive
+
+                                    Page 8
+
+
+
+
+Design:  pianoshield_top                               Date:  06/09/17  15:45:08
+
+Removed logic (cont)
+--------------------
+     anything - clipped.
+Signal musicbox_u/counter_1367_add_4_9/S1 undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/counter_1367_add_4_9/CO undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/counter_1367_add_4_1/S0 undriven or does not drive anything -
+     clipped.
+Signal musicbox_u/counter_1367_add_4_1/CI undriven or does not drive anything -
+     clipped.
+Block cap1188_i2c_u/i1876_1_lut was optimized away.
+Block cap1188_i2c_u/i1850_1_lut was optimized away.
+Block i2 was optimized away.
+Block m0_lut was optimized away.
+
+Memory Usage
+------------
+
+/musicbox_u:
+    EBRs: 1
+    RAM SLICEs: 0
+    Logic SLICEs: 16
+    PFU Registers: 15
+    -Contains EBR mux_339:  TYPE= PDPW8KC,  Width= 17,  Depth_R= 16,  REGMODE=
+         NOREG,  RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,  GSR= DISABLED
+
+     
+
+ASIC Components
+---------------
+
+Instance Name: musicbox_u/mux_339
+         Type: PDPW8KC
+
+GSR Usage
+---------
+
+GSR Component:
+   The Global Set Reset (GSR) resource has been used to implement a global reset
+        of the design. The reset signal used for GSR control is 'rst_n_in_c'.
+        
+
+     GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+        
+
+     Components with disabled GSR Property
+-------------------------------------
+
+     These components have the GSR property set to DISABLED. The components will
+     not respond to the reset signal 'rst_n_in_c' via the GSR component.
+
+     Type and number of components of the type: 
+   Register = 35 
+   PDPW8KC = 1
+
+                                    Page 9
+
+
+
+
+Design:  pianoshield_top                               Date:  06/09/17  15:45:08
+
+GSR Usage (cont)
+----------------
+
+     Type and instance name of component: 
+   Register : musicbox_u/pucounter_max__i1
+   Register : musicbox_u/freq_index__i1
+   Register : musicbox_u/freq_index__i4
+   Register : musicbox_u/freq_index__i3
+   Register : musicbox_u/freq_index__i2
+   Register : cap1188_i2c_u/work_dat_i0_i0
+   Register : cap1188_i2c_u/cap_dat2_0___i1
+   Register : cap1188_i2c_u/data_wr_i0_i0
+   Register : cap1188_i2c_u/cap_dat1_0___i1
+   Register : cap1188_i2c_u/cap_dat1_0___i8
+   Register : cap1188_i2c_u/cap_dat1_0___i7
+   Register : cap1188_i2c_u/cap_dat1_0___i6
+   Register : cap1188_i2c_u/cap_dat1_0___i5
+   Register : cap1188_i2c_u/cap_dat1_0___i4
+   Register : cap1188_i2c_u/cap_dat1_0___i3
+   Register : cap1188_i2c_u/cap_dat1_0___i2
+   Register : cap1188_i2c_u/data_wr_i0_i7
+   Register : cap1188_i2c_u/data_wr_i0_i6
+   Register : cap1188_i2c_u/data_wr_i0_i1
+   Register : cap1188_i2c_u/cap_dat2_0___i8
+   Register : cap1188_i2c_u/cap_dat2_0___i7
+   Register : cap1188_i2c_u/cap_dat2_0___i6
+   Register : cap1188_i2c_u/cap_dat2_0___i5
+   Register : cap1188_i2c_u/cap_dat2_0___i4
+   Register : cap1188_i2c_u/cap_dat2_0___i3
+   Register : cap1188_i2c_u/cap_dat2_0___i2
+   Register : cap1188_i2c_u/work_dat_i0_i1
+   Register : cap1188_i2c_u/work_dat_i0_i2
+   Register : cap1188_i2c_u/work_dat_i0_i3
+   Register : cap1188_i2c_u/work_dat_i0_i4
+   Register : cap1188_i2c_u/work_dat_i0_i5
+   Register : cap1188_i2c_u/work_dat_i0_i6
+   Register : cap1188_i2c_u/work_dat_i0_i7
+   Register : cap1188_i2c_u/data_wr_i0_i2
+   Register : cap1188_i2c_u/data_wr_i0_i5
+   PDPW8KC : musicbox_u/mux_339
+
+     Components with synchronous local reset also reset by asynchronous GSR
+----------------------------------------------------------------------
+
+     These components have the GSR property set to ENABLED and the local reset
+     is synchronous. The components will respond to the synchronous local reset
+     and to the unrelated asynchronous reset signal 'rst_n_in_c' via the GSR
+     component.
+
+     Type and number of components of the type: 
+   Register = 113 
+
+     Type and instance name of component: 
+   Register : mode_button_50
+   Register : musicbox_u/counter_1367__i0
+   Register : musicbox_u/counter_1367__i7
+   Register : musicbox_u/counter_1367__i6
+   Register : musicbox_u/counter_1367__i5
+
+                                   Page 10
+
+
+
+
+Design:  pianoshield_top                               Date:  06/09/17  15:45:08
+
+GSR Usage (cont)
+----------------
+   Register : musicbox_u/counter_1367__i4
+   Register : musicbox_u/counter_1367__i3
+   Register : musicbox_u/counter_1367__i2
+   Register : musicbox_u/counter_1367__i1
+   Register : musicbox_u/speaker_I_0/counter_1369__i8
+   Register : musicbox_u/speaker_I_0/counter_1369__i0
+   Register : musicbox_u/speaker_I_0/counter_1369__i7
+   Register : musicbox_u/speaker_I_0/counter_1369__i31
+   Register : musicbox_u/speaker_I_0/counter_1369__i30
+   Register : musicbox_u/speaker_I_0/counter_1369__i29
+   Register : musicbox_u/speaker_I_0/counter_1369__i28
+   Register : musicbox_u/speaker_I_0/counter_1369__i27
+   Register : musicbox_u/speaker_I_0/counter_1369__i26
+   Register : musicbox_u/speaker_I_0/counter_1369__i25
+   Register : musicbox_u/speaker_I_0/counter_1369__i24
+   Register : musicbox_u/speaker_I_0/counter_1369__i23
+   Register : musicbox_u/speaker_I_0/counter_1369__i22
+   Register : musicbox_u/speaker_I_0/counter_1369__i21
+   Register : musicbox_u/speaker_I_0/counter_1369__i20
+   Register : musicbox_u/speaker_I_0/counter_1369__i19
+   Register : musicbox_u/speaker_I_0/counter_1369__i18
+   Register : musicbox_u/speaker_I_0/counter_1369__i17
+   Register : musicbox_u/speaker_I_0/counter_1369__i16
+   Register : musicbox_u/speaker_I_0/counter_1369__i15
+   Register : musicbox_u/speaker_I_0/counter_1369__i14
+   Register : musicbox_u/speaker_I_0/counter_1369__i13
+   Register : musicbox_u/speaker_I_0/counter_1369__i12
+   Register : musicbox_u/speaker_I_0/counter_1369__i11
+   Register : musicbox_u/speaker_I_0/counter_1369__i10
+   Register : musicbox_u/speaker_I_0/counter_1369__i9
+   Register : musicbox_u/speaker_I_0/counter_1369__i6
+   Register : musicbox_u/speaker_I_0/counter_1369__i5
+   Register : musicbox_u/speaker_I_0/counter_1369__i4
+   Register : musicbox_u/speaker_I_0/counter_1369__i3
+   Register : musicbox_u/speaker_I_0/counter_1369__i2
+   Register : musicbox_u/speaker_I_0/counter_1369__i1
+   Register : musicbox_u/clk_inst/counter_1368__i0
+   Register : musicbox_u/clk_inst/counter_1368__i31
+   Register : musicbox_u/clk_inst/counter_1368__i30
+   Register : musicbox_u/clk_inst/counter_1368__i29
+   Register : musicbox_u/clk_inst/counter_1368__i28
+   Register : musicbox_u/clk_inst/counter_1368__i27
+   Register : musicbox_u/clk_inst/counter_1368__i26
+   Register : musicbox_u/clk_inst/counter_1368__i25
+   Register : musicbox_u/clk_inst/counter_1368__i24
+   Register : musicbox_u/clk_inst/counter_1368__i23
+   Register : musicbox_u/clk_inst/counter_1368__i22
+   Register : musicbox_u/clk_inst/counter_1368__i21
+   Register : musicbox_u/clk_inst/counter_1368__i20
+   Register : musicbox_u/clk_inst/counter_1368__i19
+   Register : musicbox_u/clk_inst/counter_1368__i18
+   Register : musicbox_u/clk_inst/counter_1368__i17
+   Register : musicbox_u/clk_inst/counter_1368__i16
+   Register : musicbox_u/clk_inst/counter_1368__i15
+   Register : musicbox_u/clk_inst/counter_1368__i14
+   Register : musicbox_u/clk_inst/counter_1368__i13
+
+                                   Page 11
+
+
+
+
+Design:  pianoshield_top                               Date:  06/09/17  15:45:08
+
+GSR Usage (cont)
+----------------
+   Register : musicbox_u/clk_inst/counter_1368__i12
+   Register : musicbox_u/clk_inst/counter_1368__i11
+   Register : musicbox_u/clk_inst/counter_1368__i10
+   Register : musicbox_u/clk_inst/counter_1368__i9
+   Register : musicbox_u/clk_inst/counter_1368__i8
+   Register : musicbox_u/clk_inst/counter_1368__i7
+   Register : musicbox_u/clk_inst/counter_1368__i6
+   Register : musicbox_u/clk_inst/counter_1368__i5
+   Register : musicbox_u/clk_inst/counter_1368__i4
+   Register : musicbox_u/clk_inst/counter_1368__i3
+   Register : musicbox_u/clk_inst/counter_1368__i2
+   Register : musicbox_u/clk_inst/counter_1368__i1
+   Register : beeper_u/time_cnt_1366__i0
+   Register : beeper_u/time_cnt_1366__i11
+   Register : beeper_u/time_cnt_1366__i10
+   Register : beeper_u/time_cnt_1366__i9
+   Register : beeper_u/time_cnt_1366__i8
+   Register : beeper_u/time_cnt_1366__i7
+   Register : beeper_u/time_cnt_1366__i6
+   Register : beeper_u/time_cnt_1366__i5
+   Register : beeper_u/time_cnt_1366__i4
+   Register : beeper_u/time_cnt_1366__i3
+   Register : beeper_u/time_cnt_1366__i2
+   Register : beeper_u/time_cnt_1366__i1
+   Register : beeper_u/time_end_i5
+   Register : beeper_u/time_cnt_1366__i15
+   Register : beeper_u/time_cnt_1366__i14
+   Register : beeper_u/time_cnt_1366__i13
+   Register : beeper_u/time_cnt_1366__i12
+   Register : cap1188_i2c_u/cnt_main_i0_i0
+   Register : cap1188_i2c_u/read_num_i0_i1
+   Register : cap1188_i2c_u/read_num_i0_i2
+   Register : cap1188_i2c_u/write_num_i0_i1
+   Register : cap1188_i2c_u/cnt_200khz_1365__i0
+   Register : cap1188_i2c_u/read_num_i0_i0
+   Register : cap1188_i2c_u/write_num_i0_i2
+   Register : cap1188_i2c_u/cnt_main_i0_i1
+   Register : cap1188_i2c_u/cnt_200khz_1365__i5
+   Register : cap1188_i2c_u/cnt_200khz_1365__i4
+   Register : cap1188_i2c_u/cnt_200khz_1365__i3
+   Register : cap1188_i2c_u/cnt_200khz_1365__i2
+   Register : cap1188_i2c_u/cnt_200khz_1365__i1
+   Register : cap1188_i2c_u/init_num_i0_i1
+   Register : cap1188_i2c_u/init_num_i0_i2
+   Register : cap1188_i2c_u/cnt_init_i0_i1
+   Register : cap1188_i2c_u/cnt_init_i0_i2
+   Register : cap1188_i2c_u/cnt_init_i0_i3
+   Register : cap1188_i2c_u/cnt_init_i0_i4
+   Register : cap1188_i2c_u/state_i0_i2
+   Register : cap1188_i2c_u/state_i0_i3
+   Register : cap1188_i2c_u/cnt_init_i0_i0
+   Register : cap1188_i2c_u/init_num_i0_i0
+
+
+
+
+
+                                   Page 12
+
+
+
+
+Design:  pianoshield_top                               Date:  06/09/17  15:45:08
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 53 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   Page 13
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights
+     reserved.

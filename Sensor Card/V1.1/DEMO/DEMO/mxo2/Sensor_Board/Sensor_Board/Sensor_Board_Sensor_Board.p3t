@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "Sensor_Board_Sensor_Board.log"
+-o "Sensor_Board_Sensor_Board.csv"
+-pr "Sensor_Board_Sensor_Board.prf"

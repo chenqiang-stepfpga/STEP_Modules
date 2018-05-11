@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "Interface_BH1750_impl_Interface_BH1750.log"
+-o "Interface_BH1750_impl_Interface_BH1750.csv"
+-pr "Interface_BH1750_impl_Interface_BH1750.prf"

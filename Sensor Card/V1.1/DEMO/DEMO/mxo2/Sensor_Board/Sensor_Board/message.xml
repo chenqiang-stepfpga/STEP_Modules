@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35001200</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>Sensor_Board</Dynamic>
+        </Message>
+        <Message>
+            <ID>35901362</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/sensor_board.v(85): </Dynamic>
+            <Dynamic>x</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/sensor_board.v</Navigation>
+            <Navigation>85</Navigation>
+        </Message>
+        <Message>
+            <ID>35901362</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/sensor_board.v(86): </Dynamic>
+            <Dynamic>y</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/sensor_board.v</Navigation>
+            <Navigation>86</Navigation>
+        </Message>
+        <Message>
+            <ID>35901362</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/sensor_board.v(103): </Dynamic>
+            <Dynamic>num_unit</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/sensor_board.v</Navigation>
+            <Navigation>103</Navigation>
+        </Message>
+        <Message>
+            <ID>35901362</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/sensor_board.v(104): </Dynamic>
+            <Dynamic>num_decade</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/sensor_board.v</Navigation>
+            <Navigation>104</Navigation>
+        </Message>
+        <Message>
+            <ID>35901875</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/mpu6050_i2c.v(32): </Dynamic>
+            <Dynamic>ACC_XH_READ</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/mpu6050_i2c.v</Navigation>
+            <Navigation>32</Navigation>
+        </Message>
+        <Message>
+            <ID>35901875</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/mpu6050_i2c.v(32): </Dynamic>
+            <Dynamic>ACC_XL_READ</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/mpu6050_i2c.v</Navigation>
+            <Navigation>32</Navigation>
+        </Message>
+        <Message>
+            <ID>35901875</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/mpu6050_i2c.v(33): </Dynamic>
+            <Dynamic>ACC_ZH_READ</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/mpu6050_i2c.v</Navigation>
+            <Navigation>33</Navigation>
+        </Message>
+        <Message>
+            <ID>35901875</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/mpu6050_i2c.v(33): </Dynamic>
+            <Dynamic>ACC_ZL_READ</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/mpu6050_i2c.v</Navigation>
+            <Navigation>33</Navigation>
+        </Message>
+        <Message>
+            <ID>35901875</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/mpu6050_i2c.v(34): </Dynamic>
+            <Dynamic>ACC_YH_READ</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/mpu6050_i2c.v</Navigation>
+            <Navigation>34</Navigation>
+        </Message>
+        <Message>
+            <ID>35901875</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/mpu6050_i2c.v(34): </Dynamic>
+            <Dynamic>ACC_YL_READ</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/mpu6050_i2c.v</Navigation>
+            <Navigation>34</Navigation>
+        </Message>
+        <Message>
+            <ID>35901875</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/mpu6050_i2c.v(35): </Dynamic>
+            <Dynamic>GYRO_XH_READ</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/mpu6050_i2c.v</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>35901875</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/mpu6050_i2c.v(35): </Dynamic>
+            <Dynamic>GYRO_XL_READ</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/mpu6050_i2c.v</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>35901875</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/mpu6050_i2c.v(36): </Dynamic>
+            <Dynamic>GYRO_YH_READ</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/mpu6050_i2c.v</Navigation>
+            <Navigation>36</Navigation>
+        </Message>
+        <Message>
+            <ID>35901875</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/mpu6050_i2c.v(36): </Dynamic>
+            <Dynamic>GYRO_YL_READ</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/mpu6050_i2c.v</Navigation>
+            <Navigation>36</Navigation>
+        </Message>
+        <Message>
+            <ID>35901875</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/mpu6050_i2c.v(37): </Dynamic>
+            <Dynamic>GYRO_ZH_READ</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/mpu6050_i2c.v</Navigation>
+            <Navigation>37</Navigation>
+        </Message>
+        <Message>
+            <ID>35901875</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/mpu6050_i2c.v(37): </Dynamic>
+            <Dynamic>GYRO_ZL_READ</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/mpu6050_i2c.v</Navigation>
+            <Navigation>37</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/sensor_board.v(18): </Dynamic>
+            <Dynamic>Sensor_Board</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/sensor_board.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/mpu6050_i2c.v(1): </Dynamic>
+            <Dynamic>mpu6050_iic</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/mpu6050_i2c.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/segment.v(18): </Dynamic>
+            <Dynamic>segment_LED</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/segment.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/segment.v(25): </Dynamic>
+            <Dynamic>seg</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/segment.v</Navigation>
+            <Navigation>25</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/led_matrix_dot_driver.v(17): </Dynamic>
+            <Dynamic>led_matrix_dot_driver</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/led_matrix_dot_driver.v</Navigation>
+            <Navigation>17</Navigation>
+        </Message>
+        <Message>
+            <ID>35901330</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/sensor_board.v(81): </Dynamic>
+            <Dynamic>5</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Dynamic>x</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/sensor_board.v</Navigation>
+            <Navigation>81</Navigation>
+        </Message>
+        <Message>
+            <ID>35901330</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/sensor_board.v(82): </Dynamic>
+            <Dynamic>5</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Dynamic>y</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/sensor_board.v</Navigation>
+            <Navigation>82</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/coordinate_process.v(17): </Dynamic>
+            <Dynamic>coordinate_process</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/coordinate_process.v</Navigation>
+            <Navigation>17</Navigation>
+        </Message>
+        <Message>
+            <ID>35901330</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/sensor_board.v(92): </Dynamic>
+            <Dynamic>5</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Dynamic>x</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/sensor_board.v</Navigation>
+            <Navigation>92</Navigation>
+        </Message>
+        <Message>
+            <ID>35901330</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/sensor_board.v(93): </Dynamic>
+            <Dynamic>5</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Dynamic>y</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/sensor_board.v</Navigation>
+            <Navigation>93</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/ds18b20_interface.v(18): </Dynamic>
+            <Dynamic>ds18b20_interface</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/ds18b20_interface.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/ds18b20_dataprocess.v(21): </Dynamic>
+            <Dynamic>ds18b20_dataprocess</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/ds18b20_dataprocess.v</Navigation>
+            <Navigation>21</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/ds18b20_dataprocess.v(65): </Dynamic>
+            <Dynamic>tem_data</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/ds18b20_dataprocess.v</Navigation>
+            <Navigation>65</Navigation>
+        </Message>
+        <Message>
+            <ID>35901466</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/ds18b20_dataprocess.v(65): </Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/ds18b20_dataprocess.v</Navigation>
+            <Navigation>65</Navigation>
+        </Message>
+        <Message>
+            <ID>35931038</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/segment.v(25): </Dynamic>
+            <Dynamic>seg_original_ramnet</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/segment.v</Navigation>
+            <Navigation>25</Navigation>
+        </Message>
+        <Message>
+            <ID>35001774</ID>
+            <Severity>Info</Severity>
+            <Dynamic>\mpu6050_iic_u1/state</Dynamic>
+            <Dynamic>one-hot</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>0</Dynamic>
+            <Dynamic>\mpu6050_iic_u1/state_FSM</Dynamic>
+        </Message>
+        <Message>
+            <ID>35935014</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/ds18b20_interface.v(184): </Dynamic>
+            <Dynamic>\ds18b20_interface_u1/data_wr_i0_i2</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/ds18b20_interface.v</Navigation>
+            <Navigation>184</Navigation>
+        </Message>
+        <Message>
+            <ID>35935013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/sensor_board/ds18b20_interface.v(184): </Dynamic>
+            <Dynamic>\ds18b20_interface_u1/data_wr_i0_i0</Dynamic>
+            <Navigation>c:/users/22822/desktop/sensor_board/ds18b20_interface.v</Navigation>
+            <Navigation>184</Navigation>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>clk_c</Dynamic>
+            <Dynamic>Primary</Dynamic>
+            <Dynamic>clk</Dynamic>
+            <Dynamic>C1</Dynamic>
+            <Dynamic>Primary</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=ds18b20_interface_u1/clk_1mhz loads=12 clock_loads=2</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=ds18b20_interface_u1/clk_1mhz loads=12 clock_loads=2</Dynamic>
+        </Message>
+    </Task>
+</BaliMessageLog>

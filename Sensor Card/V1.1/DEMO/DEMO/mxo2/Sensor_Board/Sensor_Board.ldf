@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="Sensor_Board" device="LCMXO2-4000HC-4MG132C" default_implementation="Sensor_Board">
+    <Options/>
+    <Implementation title="Sensor_Board" dir="Sensor_Board" description="Sensor_Board" synthesis="lse" default_strategy="Strategy1">
+        <Options/>
+        <Source name="Sensor_Board.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="coordinate_process.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="ds18b20_dataprocess.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="ds18b20_interface.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="led_matrix_dot_driver.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="mpu6050_i2c.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="segment.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Sensor_Board.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="Sensor_Board/Sensor_Board.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="Sensor_Board1.sty"/>
+</BaliProject>

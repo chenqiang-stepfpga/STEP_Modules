@@ -1,0 +1,72 @@
+---------------------------------------------------
+Report for cell pianoshield_top
+   Instance path: pianoshield_top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     413.00        100.0
+                                  LUT4	     571.00        100.0
+                                 IOBUF	         31        100.0
+                                PFUREG	        215        100.0
+                                RIPPLE	        108        100.0
+                                   EBR	          1        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                             music_box	          1        24.5
+                               display	          1        10.0
+                           cap1188_i2c	          1        24.3
+                                beeper	          1        15.6
+---------------------------------------------------
+Report for cell music_box
+   Instance path: pianoshield_top/musicbox_u
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     101.17        24.5
+                                  LUT4	      28.00         4.9
+                                PFUREG	         83        38.6
+                                RIPPLE	         86        79.6
+                                   EBR	          1        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                   pwm	          1        12.3
+                           clk_quarter	          1         7.3
+---------------------------------------------------
+Report for cell pwm
+   Instance path: pianoshield_top/musicbox_u/speaker_I_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      51.00        12.3
+                                PFUREG	         33        15.3
+                                RIPPLE	         51        47.2
+---------------------------------------------------
+Report for cell clk_quarter
+   Instance path: pianoshield_top/musicbox_u/clk_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      30.00         7.3
+                                PFUREG	         33        15.3
+                                RIPPLE	         30        27.8
+---------------------------------------------------
+Report for cell display
+   Instance path: pianoshield_top/display_u
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      41.50        10.0
+                                  LUT4	      88.00        15.4
+---------------------------------------------------
+Report for cell beeper
+   Instance path: pianoshield_top/beeper_u
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      64.50        15.6
+                                  LUT4	      91.00        15.9
+                                PFUREG	         33        15.3
+                                RIPPLE	         18        16.7
+---------------------------------------------------
+Report for cell cap1188_i2c
+   Instance path: pianoshield_top/cap1188_i2c_u
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     100.25        24.3
+                                  LUT4	     185.50        32.5
+                                PFUREG	         81        37.7
+                                RIPPLE	          4         3.7

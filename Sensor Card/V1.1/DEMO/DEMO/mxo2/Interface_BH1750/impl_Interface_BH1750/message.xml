@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="LSE_Compile">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35001781</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35001200</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>Interface_BH1750</Dynamic>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/fpga/general_interface/interface_bh1750/interface_bh1750.v(1): </Dynamic>
+            <Dynamic>Interface_BH1750</Dynamic>
+            <Navigation>d:/fpga/general_interface/interface_bh1750/interface_bh1750.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/fpga/general_interface/interface_bh1750/bh1750.v(1): </Dynamic>
+            <Dynamic>BH1750</Dynamic>
+            <Navigation>d:/fpga/general_interface/interface_bh1750/bh1750.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/fpga/general_interface/interface_bh1750/data_process.v(1): </Dynamic>
+            <Dynamic>Data_Process</Dynamic>
+            <Navigation>d:/fpga/general_interface/interface_bh1750/data_process.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+    </Task>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35001200</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>Interface_BH1750</Dynamic>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/interface_bh1750.v(18): </Dynamic>
+            <Dynamic>Interface_BH1750</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/interface_bh1750.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/bh1750.v(19): </Dynamic>
+            <Dynamic>BH1750</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/bh1750.v</Navigation>
+            <Navigation>19</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/data_process.v(18): </Dynamic>
+            <Dynamic>Data_Process</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/data_process.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/bin_to_bcd.v(18): </Dynamic>
+            <Dynamic>BIN_To_BCD</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/bin_to_bcd.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/bin_to_bcd.v(36): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/bin_to_bcd.v</Navigation>
+            <Navigation>36</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/bin_to_bcd.v(39): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/bin_to_bcd.v</Navigation>
+            <Navigation>39</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/seg_led.v(17): </Dynamic>
+            <Dynamic>seg_led</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/seg_led.v</Navigation>
+            <Navigation>17</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/seg_led.v(24): </Dynamic>
+            <Dynamic>seg</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/seg_led.v</Navigation>
+            <Navigation>24</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(18): </Dynamic>
+            <Dynamic>led_scan</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/clk_div.v(17): </Dynamic>
+            <Dynamic>clk_div(COUNTER_NUM=100000)</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/clk_div.v</Navigation>
+            <Navigation>17</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(54): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>54</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(57): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>57</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/clk_div.v(17): </Dynamic>
+            <Dynamic>clk_div(COUNTER_NUM=1200)</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/clk_div.v</Navigation>
+            <Navigation>17</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(124): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>124</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(124): </Dynamic>
+            <Dynamic>temp_cnt</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>124</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(125): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>125</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(125): </Dynamic>
+            <Dynamic>temp_cnt</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>125</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(126): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>126</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(126): </Dynamic>
+            <Dynamic>temp_cnt</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>126</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(127): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>127</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(127): </Dynamic>
+            <Dynamic>temp_cnt</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>127</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(128): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>128</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(128): </Dynamic>
+            <Dynamic>temp_cnt</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>128</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(129): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>129</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(129): </Dynamic>
+            <Dynamic>temp_cnt</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>129</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(130): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>130</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(130): </Dynamic>
+            <Dynamic>temp_cnt</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>130</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(131): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>131</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(131): </Dynamic>
+            <Dynamic>temp_cnt</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>131</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(132): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>132</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(132): </Dynamic>
+            <Dynamic>temp_cnt</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>132</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(133): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>133</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(133): </Dynamic>
+            <Dynamic>temp_cnt</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>133</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(134): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>134</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(134): </Dynamic>
+            <Dynamic>temp_cnt</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>134</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(135): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>135</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(135): </Dynamic>
+            <Dynamic>temp_cnt</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>135</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(136): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>136</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(136): </Dynamic>
+            <Dynamic>temp_cnt</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>136</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(137): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>137</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(137): </Dynamic>
+            <Dynamic>temp_cnt</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>137</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(138): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>138</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(138): </Dynamic>
+            <Dynamic>temp_cnt</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>138</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(139): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>139</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(139): </Dynamic>
+            <Dynamic>temp_cnt</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>139</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(82): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>82</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/rgb_led.v(16): </Dynamic>
+            <Dynamic>rgb_led</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/rgb_led.v</Navigation>
+            <Navigation>16</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/rgb_led.v(32): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>6</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/rgb_led.v</Navigation>
+            <Navigation>32</Navigation>
+        </Message>
+        <Message>
+            <ID>35931038</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/seg_led.v(24): </Dynamic>
+            <Dynamic>seg_original_ramnet</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/seg_led.v</Navigation>
+            <Navigation>24</Navigation>
+        </Message>
+        <Message>
+            <ID>35931038</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v(82): </Dynamic>
+            <Dynamic>cache_original_ramnet</Dynamic>
+            <Navigation>c:/users/22822/desktop/demo/sensor_board_demo/interface_bh1750/led_scan.v</Navigation>
+            <Navigation>82</Navigation>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>clk_c</Dynamic>
+            <Dynamic>Primary</Dynamic>
+            <Dynamic>clk</Dynamic>
+            <Dynamic>C1</Dynamic>
+            <Dynamic>Primary</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=u5/clk16Hz loads=4 clock_loads=1
+   Signal=u1/clk_100khz loads=6 clock_loads=3
+   Signal=u5/line_7__N_474 loads=3 clock_loads=3</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=u5/clk16Hz loads=4 clock_loads=1
+   Signal=u1/clk_100khz loads=6 clock_loads=3
+   Signal=u5/line_7__N_474 loads=3 clock_loads=3</Dynamic>
+        </Message>
+    </Task>
+</BaliMessageLog>

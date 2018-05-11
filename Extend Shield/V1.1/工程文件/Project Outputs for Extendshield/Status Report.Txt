@@ -1,0 +1,14 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [Extendshield.PrjPcb]
+   Generated File[PCB1.GD1]
+   Generated File[PCB1.GG1]
+   Generated File[PCB1.RUL]
+   Generated File[PCB1.EXTREP]
+   Generated File[PCB1.REP]
+
+
+Files Generated   : 5
+Documents Printed : 0
+
+Finished Output Generation At 16:46:24 On 2017/5/9

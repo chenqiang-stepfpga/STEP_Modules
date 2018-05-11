@@ -1,0 +1,61 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Sun Jun 11 18:53:04 2017 *
+NOTE DESIGN NAME: Interface_BH1750 *
+NOTE DEVICE NAME: LCMXO2-4000HC-4CSBGA132 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS seg_led1[6] : B9 : out *
+NOTE PINS seg_led1[7] : F1 : out *
+NOTE PINS seg_led1[8] : C9 : out *
+NOTE PINS dvi : J13 : out *
+NOTE PINS scl : C8 : out *
+NOTE PINS sda : B8 : inout *
+NOTE PINS rst : L14 : in *
+NOTE PINS clk : C1 : in *
+NOTE PINS rgb_led2[0] : P4 : out *
+NOTE PINS rgb_led2[1] : N3 : out *
+NOTE PINS rgb_led2[2] : M3 : out *
+NOTE PINS rgb_led1[0] : M2 : out *
+NOTE PINS rgb_led1[1] : N2 : out *
+NOTE PINS rgb_led1[2] : P2 : out *
+NOTE PINS line[0] : P8 : out *
+NOTE PINS line[1] : N6 : out *
+NOTE PINS line[2] : L3 : out *
+NOTE PINS line[3] : K3 : out *
+NOTE PINS line[4] : K2 : out *
+NOTE PINS line[5] : J3 : out *
+NOTE PINS line[6] : J2 : out *
+NOTE PINS line[7] : F3 : out *
+NOTE PINS row[0] : N7 : out *
+NOTE PINS row[1] : P7 : out *
+NOTE PINS row[2] : P6 : out *
+NOTE PINS row[3] : N5 : out *
+NOTE PINS row[4] : H12 : out *
+NOTE PINS row[5] : G14 : out *
+NOTE PINS row[6] : G13 : out *
+NOTE PINS row[7] : F14 : out *
+NOTE PINS row[8] : F13 : out *
+NOTE PINS row[9] : G12 : out *
+NOTE PINS row[10] : F12 : out *
+NOTE PINS row[11] : E12 : out *
+NOTE PINS row[12] : H3 : out *
+NOTE PINS row[13] : G3 : out *
+NOTE PINS row[14] : E3 : out *
+NOTE PINS row[15] : N8 : out *
+NOTE PINS seg_led2[0] : C12 : out *
+NOTE PINS seg_led2[1] : B14 : out *
+NOTE PINS seg_led2[2] : J1 : out *
+NOTE PINS seg_led2[3] : H1 : out *
+NOTE PINS seg_led2[4] : H2 : out *
+NOTE PINS seg_led2[5] : B12 : out *
+NOTE PINS seg_led2[6] : A11 : out *
+NOTE PINS seg_led2[7] : K1 : out *
+NOTE PINS seg_led2[8] : A12 : out *
+NOTE PINS seg_led1[0] : A10 : out *
+NOTE PINS seg_led1[1] : C11 : out *
+NOTE PINS seg_led1[2] : F2 : out *
+NOTE PINS seg_led1[3] : E1 : out *
+NOTE PINS seg_led1[4] : E2 : out *
+NOTE PINS seg_led1[5] : A9 : out *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

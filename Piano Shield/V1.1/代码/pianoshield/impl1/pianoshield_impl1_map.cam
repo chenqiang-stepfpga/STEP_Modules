@@ -1,0 +1,166 @@
+[ START MERGED ]
+n7580 cap1188_i2c_u/sda_out_N_275
+cap1188_i2c_u/n1 state_0
+[ END MERGED ]
+[ START CLIPPED ]
+VCC_net
+n16662
+cap1188_i2c_u/cnt_200khz_1365_add_4_7/S1
+cap1188_i2c_u/cnt_200khz_1365_add_4_7/CO
+cap1188_i2c_u/cnt_200khz_1365_add_4_1/S0
+cap1188_i2c_u/cnt_200khz_1365_add_4_1/CI
+beeper_u/time_cnt_1366_add_4_1/S0
+beeper_u/time_cnt_1366_add_4_1/CI
+beeper_u/time_cnt_1366_add_4_17/S1
+beeper_u/time_cnt_1366_add_4_17/CO
+beeper_u/add_1179_1/S0
+beeper_u/add_1179_1/CI
+beeper_u/add_1179_17/CO
+musicbox_u/clk_inst/add_8484_2/S1
+musicbox_u/clk_inst/add_8484_2/S0
+musicbox_u/clk_inst/add_8484_2/CI
+musicbox_u/clk_inst/add_8484_4/S1
+musicbox_u/clk_inst/add_8484_4/S0
+musicbox_u/clk_inst/add_8484_6/S1
+musicbox_u/clk_inst/add_8484_6/S0
+musicbox_u/clk_inst/add_8484_8/S1
+musicbox_u/clk_inst/add_8484_8/S0
+musicbox_u/clk_inst/add_8484_10/S1
+musicbox_u/clk_inst/add_8484_10/S0
+musicbox_u/clk_inst/add_8484_12/S1
+musicbox_u/clk_inst/add_8484_12/S0
+musicbox_u/clk_inst/add_8484_14/S1
+musicbox_u/clk_inst/add_8484_14/S0
+musicbox_u/clk_inst/add_8484_16/S1
+musicbox_u/clk_inst/add_8484_16/S0
+musicbox_u/clk_inst/add_8484_18/S1
+musicbox_u/clk_inst/add_8484_18/S0
+musicbox_u/clk_inst/add_8484_20/S1
+musicbox_u/clk_inst/add_8484_20/S0
+musicbox_u/clk_inst/add_8484_22/S1
+musicbox_u/clk_inst/add_8484_22/S0
+musicbox_u/clk_inst/add_8484_24/S1
+musicbox_u/clk_inst/add_8484_24/S0
+musicbox_u/clk_inst/add_8484_26/S0
+musicbox_u/clk_inst/add_8484_26/CO
+musicbox_u/clk_inst/counter_1368_add_4_1/S0
+musicbox_u/clk_inst/counter_1368_add_4_1/CI
+musicbox_u/clk_inst/counter_1368_add_4_33/S1
+musicbox_u/clk_inst/counter_1368_add_4_33/CO
+musicbox_u/speaker_I_0/sub_1189_add_2_31/S1
+musicbox_u/speaker_I_0/sub_1189_add_2_31/S0
+musicbox_u/speaker_I_0/sub_1189_add_2_33/S0
+musicbox_u/speaker_I_0/sub_1189_add_2_33/CO
+musicbox_u/speaker_I_0/counter_1369_add_4_1/S0
+musicbox_u/speaker_I_0/counter_1369_add_4_1/CI
+musicbox_u/speaker_I_0/sub_1191_add_2_1/S1
+musicbox_u/speaker_I_0/sub_1191_add_2_1/S0
+musicbox_u/speaker_I_0/sub_1191_add_2_1/CI
+musicbox_u/speaker_I_0/sub_1191_add_2_3/S1
+musicbox_u/speaker_I_0/sub_1191_add_2_3/S0
+musicbox_u/speaker_I_0/sub_1191_add_2_5/S1
+musicbox_u/speaker_I_0/sub_1191_add_2_5/S0
+musicbox_u/speaker_I_0/sub_1191_add_2_7/S1
+musicbox_u/speaker_I_0/sub_1191_add_2_7/S0
+musicbox_u/speaker_I_0/sub_1191_add_2_9/S1
+musicbox_u/speaker_I_0/sub_1191_add_2_9/S0
+musicbox_u/speaker_I_0/sub_1191_add_2_11/S1
+musicbox_u/speaker_I_0/sub_1191_add_2_11/S0
+musicbox_u/speaker_I_0/sub_1191_add_2_13/S1
+musicbox_u/speaker_I_0/sub_1191_add_2_13/S0
+musicbox_u/speaker_I_0/sub_1191_add_2_15/S1
+musicbox_u/speaker_I_0/sub_1191_add_2_15/S0
+musicbox_u/speaker_I_0/sub_1191_add_2_17/S1
+musicbox_u/speaker_I_0/sub_1191_add_2_17/S0
+musicbox_u/speaker_I_0/sub_1191_add_2_19/S1
+musicbox_u/speaker_I_0/sub_1191_add_2_19/S0
+musicbox_u/speaker_I_0/sub_1191_add_2_21/S1
+musicbox_u/speaker_I_0/sub_1191_add_2_21/S0
+musicbox_u/speaker_I_0/sub_1191_add_2_23/S1
+musicbox_u/speaker_I_0/sub_1191_add_2_23/S0
+musicbox_u/speaker_I_0/sub_1191_add_2_25/S1
+musicbox_u/speaker_I_0/sub_1191_add_2_25/S0
+musicbox_u/speaker_I_0/sub_1191_add_2_27/S1
+musicbox_u/speaker_I_0/sub_1191_add_2_27/S0
+musicbox_u/speaker_I_0/sub_1191_add_2_29/S1
+musicbox_u/speaker_I_0/sub_1191_add_2_29/S0
+musicbox_u/speaker_I_0/sub_1191_add_2_31/S1
+musicbox_u/speaker_I_0/sub_1191_add_2_31/S0
+musicbox_u/speaker_I_0/sub_1191_add_2_33/S0
+musicbox_u/speaker_I_0/sub_1191_add_2_33/CO
+musicbox_u/speaker_I_0/sub_1189_add_2_1/S1
+musicbox_u/speaker_I_0/sub_1189_add_2_1/S0
+musicbox_u/speaker_I_0/sub_1189_add_2_1/CI
+musicbox_u/speaker_I_0/sub_1189_add_2_3/S1
+musicbox_u/speaker_I_0/sub_1189_add_2_3/S0
+musicbox_u/speaker_I_0/sub_1189_add_2_5/S1
+musicbox_u/speaker_I_0/sub_1189_add_2_5/S0
+musicbox_u/speaker_I_0/sub_1189_add_2_7/S1
+musicbox_u/speaker_I_0/sub_1189_add_2_7/S0
+musicbox_u/speaker_I_0/sub_1189_add_2_9/S1
+musicbox_u/speaker_I_0/sub_1189_add_2_9/S0
+musicbox_u/speaker_I_0/sub_1189_add_2_11/S1
+musicbox_u/speaker_I_0/sub_1189_add_2_11/S0
+musicbox_u/speaker_I_0/sub_1189_add_2_13/S1
+musicbox_u/speaker_I_0/sub_1189_add_2_13/S0
+musicbox_u/speaker_I_0/sub_1189_add_2_15/S1
+musicbox_u/speaker_I_0/sub_1189_add_2_15/S0
+musicbox_u/speaker_I_0/sub_1189_add_2_17/S1
+musicbox_u/speaker_I_0/sub_1189_add_2_17/S0
+musicbox_u/speaker_I_0/sub_1189_add_2_19/S1
+musicbox_u/speaker_I_0/sub_1189_add_2_19/S0
+musicbox_u/speaker_I_0/sub_1189_add_2_21/S1
+musicbox_u/speaker_I_0/sub_1189_add_2_21/S0
+musicbox_u/speaker_I_0/counter_1369_add_4_33/S1
+musicbox_u/speaker_I_0/counter_1369_add_4_33/CO
+musicbox_u/speaker_I_0/sub_1189_add_2_23/S1
+musicbox_u/speaker_I_0/sub_1189_add_2_23/S0
+musicbox_u/speaker_I_0/sub_1189_add_2_25/S1
+musicbox_u/speaker_I_0/sub_1189_add_2_25/S0
+musicbox_u/speaker_I_0/sub_1189_add_2_27/S1
+musicbox_u/speaker_I_0/sub_1189_add_2_27/S0
+musicbox_u/speaker_I_0/sub_1189_add_2_29/S1
+musicbox_u/speaker_I_0/sub_1189_add_2_29/S0
+musicbox_u/counter_1367_add_4_9/S1
+musicbox_u/counter_1367_add_4_9/CO
+musicbox_u/counter_1367_add_4_1/S0
+musicbox_u/counter_1367_add_4_1/CI
+[ END CLIPPED ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.8.0.115.3 -- WARNING: Map write only section -- Fri Jun 09 15:45:09 2017
+
+SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF ;
+LOCATE COMP "led_out[6]" SITE "N9" ;
+LOCATE COMP "led_out[7]" SITE "P9" ;
+LOCATE COMP "rst_n_in" SITE "L14" ;
+LOCATE COMP "clk_in" SITE "C1" ;
+LOCATE COMP "segment_led_2[0]" SITE "C12" ;
+LOCATE COMP "segment_led_2[1]" SITE "B14" ;
+LOCATE COMP "segment_led_2[2]" SITE "J1" ;
+LOCATE COMP "segment_led_2[3]" SITE "H1" ;
+LOCATE COMP "segment_led_2[4]" SITE "H2" ;
+LOCATE COMP "segment_led_2[5]" SITE "B12" ;
+LOCATE COMP "segment_led_2[6]" SITE "A11" ;
+LOCATE COMP "segment_led_2[7]" SITE "K1" ;
+LOCATE COMP "segment_led_2[8]" SITE "A12" ;
+LOCATE COMP "segment_led_1[0]" SITE "A10" ;
+LOCATE COMP "segment_led_1[1]" SITE "C11" ;
+LOCATE COMP "segment_led_1[2]" SITE "F2" ;
+LOCATE COMP "segment_led_1[3]" SITE "E1" ;
+LOCATE COMP "segment_led_1[4]" SITE "E2" ;
+LOCATE COMP "segment_led_1[5]" SITE "A9" ;
+LOCATE COMP "segment_led_1[6]" SITE "B9" ;
+LOCATE COMP "segment_led_1[7]" SITE "F1" ;
+LOCATE COMP "segment_led_1[8]" SITE "C9" ;
+LOCATE COMP "led_out[0]" SITE "N13" ;
+LOCATE COMP "led_out[1]" SITE "M12" ;
+LOCATE COMP "led_out[2]" SITE "P12" ;
+LOCATE COMP "led_out[3]" SITE "M11" ;
+LOCATE COMP "led_out[4]" SITE "P11" ;
+LOCATE COMP "led_out[5]" SITE "N10" ;
+LOCATE COMP "beepout" SITE "F14" ;
+LOCATE COMP "scl_out" SITE "C8" ;
+LOCATE COMP "sda_out" SITE "B8" ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

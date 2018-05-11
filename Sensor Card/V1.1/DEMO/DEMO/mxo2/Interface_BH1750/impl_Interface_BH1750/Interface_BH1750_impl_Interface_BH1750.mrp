@@ -1,0 +1,666 @@
+
+       Lattice Mapping Report File for Design Module 'Interface_BH1750'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-4000HC -t CSBGA132 -s 4 -oc Commercial
+     Interface_BH1750_impl_Interface_BH1750.ngd -o
+     Interface_BH1750_impl_Interface_BH1750_map.ncd -pr
+     Interface_BH1750_impl_Interface_BH1750.prf -mp
+     Interface_BH1750_impl_Interface_BH1750.mrp -lpf C:/Users/22822/Desktop/demo
+     /Sensor_Board_Demo/Interface_BH1750/impl_Interface_BH1750/Interface_BH1750_
+     impl_Interface_BH1750.lpf -lpf C:/Users/22822/Desktop/demo/Sensor_Board_Dem
+     o/Interface_BH1750/Interface_BH1750.lpf -c 0 -gui -msgset
+     C:/Users/22822/Desktop/demo/Sensor_Board_Demo/Interface_BH1750/promote.xml
+     
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-4000HCCSBGA132
+Target Performance:   4
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.8.0.115.3
+Mapped on:  06/11/17  18:52:49
+
+Design Summary
+--------------
+
+   Number of registers:    128 out of  4635 (3%)
+      PFU registers:          128 out of  4320 (3%)
+      PIO registers:            0 out of   315 (0%)
+   Number of SLICEs:       350 out of  2160 (16%)
+      SLICEs as Logic/ROM:    350 out of  2160 (16%)
+      SLICEs as RAM:            0 out of  1620 (0%)
+      SLICEs as Carry:         81 out of  2160 (4%)
+   Number of LUT4s:        700 out of  4320 (16%)
+      Number used as logic LUTs:        538
+      Number used as distributed RAM:     0
+      Number used as ripple logic:      162
+      Number used as shift registers:     0
+   Number of PIO sites used: 53 + 4(JTAG) out of 105 (54%)
+   Number of block RAMs:  0 out of 10 (0%)
+   Number of GSRs:  1 out of 1 (100%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+
+                                    Page 1
+
+
+
+
+Design:  Interface_BH1750                              Date:  06/11/17  18:52:49
+
+Design Summary (cont)
+---------------------
+     ripple logic.
+   Number of clocks:  4
+     Net u5/clk16Hz: 1 loads, 1 rising, 0 falling (Driver:
+     u5/clk16Hz_uut/invert_15 )
+     Net clk_c: 67 loads, 67 rising, 0 falling (Driver: PIO clk )
+     Net u1/clk_100khz: 3 loads, 3 rising, 0 falling (Driver: u1/clk_100khz_291
+     )
+     Net u5/line_7__N_474: 3 loads, 3 rising, 0 falling (Driver: u5/i8_4_lut )
+   Number of Clock Enables:  9
+     Net clk_c_enable_22: 2 loads, 2 LSLICEs
+     Net clk_c_enable_24: 2 loads, 2 LSLICEs
+     Net clk_c_enable_41: 8 loads, 8 LSLICEs
+     Net clk_c_enable_30: 6 loads, 6 LSLICEs
+     Net u1/clk_100khz_enable_1: 1 loads, 1 LSLICEs
+     Net u1/clk_c_enable_18: 3 loads, 3 LSLICEs
+     Net u1/clk_c_enable_14: 1 loads, 1 LSLICEs
+     Net u1/clk_100khz_enable_2: 1 loads, 1 LSLICEs
+     Net u1/clk_100khz_enable_3: 1 loads, 1 LSLICEs
+   Number of LSRs:  7
+     Net cnt_31__N_710: 17 loads, 17 LSLICEs
+     Net get_num_flag: 1 loads, 1 LSLICEs
+     Net cnt_31__N_779: 17 loads, 17 LSLICEs
+     Net n9148: 8 loads, 8 LSLICEs
+     Net n9152: 4 loads, 4 LSLICEs
+     Net n9160: 2 loads, 2 LSLICEs
+     Net u6/n218: 4 loads, 4 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net u1/cnt_1: 95 loads
+     Net u1/cnt_0: 71 loads
+     Net u1/cnt_3: 67 loads
+     Net u1/cnt_2: 62 loads
+     Net u1/cnt_4: 53 loads
+     Net u1/cnt_5: 45 loads
+     Net u5/temp_cnt_1: 41 loads
+     Net u5/temp_cnt_2: 40 loads
+     Net u1/cnt_11: 38 loads
+     Net u1/cnt_6: 35 loads
+
+
+
+
+   Number of warnings:  0
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+   No errors or warnings present.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+
+                                    Page 2
+
+
+
+
+Design:  Interface_BH1750                              Date:  06/11/17  18:52:49
+
+IO (PIO) Attributes (cont)
+--------------------------
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| seg_led1[6]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led1[7]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led1[8]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| dvi                 | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| scl                 | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| sda                 | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| rst                 | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| clk                 | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| rgb_led2[0]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| rgb_led2[1]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| rgb_led2[2]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| rgb_led1[0]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| rgb_led1[1]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| rgb_led1[2]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| line[0]             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| line[1]             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| line[2]             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| line[3]             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| line[4]             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| line[5]             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| line[6]             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| line[7]             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| row[0]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| row[1]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| row[2]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| row[3]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| row[4]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 3
+
+
+
+
+Design:  Interface_BH1750                              Date:  06/11/17  18:52:49
+
+IO (PIO) Attributes (cont)
+--------------------------
+| row[5]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| row[6]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| row[7]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| row[8]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| row[9]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| row[10]             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| row[11]             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| row[12]             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| row[13]             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| row[14]             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| row[15]             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led2[0]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led2[1]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led2[2]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led2[3]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led2[4]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led2[5]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led2[6]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led2[7]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led2[8]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led1[0]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led1[1]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led1[2]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led1[3]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led1[4]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led1[5]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+
+
+
+
+
+                                    Page 4
+
+
+
+
+Design:  Interface_BH1750                              Date:  06/11/17  18:52:49
+
+Removed logic
+-------------
+
+Signal n7889 was merged into signal u1/ctl_sda
+Signal u6/count_4438_add_4_1/S0 undriven or does not drive anything - clipped.
+Signal u6/count_4438_add_4_1/CI undriven or does not drive anything - clipped.
+Signal u6/count_4438_add_4_7/S1 undriven or does not drive anything - clipped.
+Signal u6/count_4438_add_4_7/CO undriven or does not drive anything - clipped.
+Signal u1/cnt_100khz_4433_4434_add_4_1/S0 undriven or does not drive anything -
+     clipped.
+Signal u1/cnt_100khz_4433_4434_add_4_1/CI undriven or does not drive anything -
+     clipped.
+Signal u1/cnt_100khz_4433_4434_add_4_7/S1 undriven or does not drive anything -
+     clipped.
+Signal u1/cnt_100khz_4433_4434_add_4_7/CO undriven or does not drive anything -
+     clipped.
+Signal u1/cnt_4435_add_4_1/S0 undriven or does not drive anything - clipped.
+Signal u1/cnt_4435_add_4_1/CI undriven or does not drive anything - clipped.
+Signal u1/cnt_4435_add_4_13/S1 undriven or does not drive anything - clipped.
+Signal u1/cnt_4435_add_4_13/CO undriven or does not drive anything - clipped.
+Signal u5/clk10KHz_uut/cnt_4440_add_4_33/S1 undriven or does not drive anything
+     - clipped.
+Signal u5/clk10KHz_uut/cnt_4440_add_4_33/CO undriven or does not drive anything
+     - clipped.
+Signal u5/clk10KHz_uut/add_11528_2/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_2/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_2/CI undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_4/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_4/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_6/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_6/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_8/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_8/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_10/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_10/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_12/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_12/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_14/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_14/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_16/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_16/S0 undriven or does not drive anything -
+     clipped.
+
+                                    Page 5
+
+
+
+
+Design:  Interface_BH1750                              Date:  06/11/17  18:52:49
+
+Removed logic (cont)
+--------------------
+Signal u5/clk10KHz_uut/add_11528_18/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_18/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_20/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_20/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_22/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_22/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_24/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_24/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_26/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_26/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_28/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_28/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_30/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_30/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_32/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/add_11528_32/CO undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/cnt_4440_add_4_1/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk10KHz_uut/cnt_4440_add_4_1/CI undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_22/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_22/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_24/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_24/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_6/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_6/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_26/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_26/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_28/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_28/S0 undriven or does not drive anything -
+     clipped.
+
+                                    Page 6
+
+
+
+
+Design:  Interface_BH1750                              Date:  06/11/17  18:52:49
+
+Removed logic (cont)
+--------------------
+Signal u5/clk16Hz_uut/add_11529_30/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_30/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_32/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_32/CO undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_2/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_2/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_2/CI undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_10/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_10/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/cnt_4439_add_4_1/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/cnt_4439_add_4_1/CI undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_12/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_12/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_14/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_14/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_8/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_8/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/cnt_4439_add_4_33/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/cnt_4439_add_4_33/CO undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_16/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_16/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_4/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_4/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_18/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_18/S0 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_20/S1 undriven or does not drive anything -
+     clipped.
+Signal u5/clk16Hz_uut/add_11529_20/S0 undriven or does not drive anything -
+     clipped.
+Block u1/i5650_1_lut was optimized away.
+
+
+                                    Page 7
+
+
+
+
+Design:  Interface_BH1750                              Date:  06/11/17  18:52:49
+
+Memory Usage
+------------
+
+
+     
+
+GSR Usage
+---------
+
+GSR Component:
+   The Global Set Reset (GSR) resource has been used to implement a global reset
+        of the design. The reset signal used for GSR control is 'rst_c'.
+        
+
+     GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+        
+
+     Components with disabled GSR Property
+-------------------------------------
+
+     These components have the GSR property set to DISABLED. The components will
+     not respond to the reset signal 'rst_c' via the GSR component.
+
+     Type and number of components of the type: 
+   Register = 40 
+
+     Type and instance name of component: 
+   Register : u5/line_7__I_0_i5
+   Register : u5/line_7__I_0_i6
+   Register : u5/line_7__I_0_i7
+   Register : u5/line_7__I_0_i8
+   Register : u5/get_num_flag_112
+   Register : u5/row_i0_i8
+   Register : u5/temp_cnt_4436_4525__i1
+   Register : u5/temp_num_4437__i0
+   Register : u5/row_i0_i9
+   Register : u5/temp_num_4437__i3
+   Register : u5/temp_num_4437__i2
+   Register : u5/temp_num_4437__i1
+   Register : u5/temp_cnt_4436_4525__i3
+   Register : u5/temp_cnt_4436_4525__i2
+   Register : u5/row_i0_i16
+   Register : u5/row_i0_i12
+   Register : u5/row_i0_i13
+   Register : u5/row_i0_i14
+   Register : u5/row_i0_i15
+   Register : u5/row_i0_i11
+   Register : u5/row_i0_i10
+   Register : u5/row_i0_i1
+   Register : u5/row_i0_i2
+   Register : u5/row_i0_i3
+   Register : u5/row_i0_i4
+   Register : u5/row_i0_i5
+   Register : u5/row_i0_i6
+   Register : u5/row_i0_i7
+
+                                    Page 8
+
+
+
+
+Design:  Interface_BH1750                              Date:  06/11/17  18:52:49
+
+GSR Usage (cont)
+----------------
+   Register : u1/data_i0_i15
+   Register : u1/data_i0_i14
+   Register : u1/data_i0_i13
+   Register : u1/data_i0_i12
+   Register : u1/data_i0_i11
+   Register : u1/data_i0_i10
+   Register : u6/count_4438__i0
+   Register : u6/count_4438__i5
+   Register : u6/count_4438__i4
+   Register : u6/count_4438__i3
+   Register : u6/count_4438__i2
+   Register : u6/count_4438__i1
+
+     Components with synchronous local reset also reset by asynchronous GSR
+----------------------------------------------------------------------
+
+     These components have the GSR property set to ENABLED and the local reset
+     is synchronous. The components will respond to the synchronous local reset
+     and to the unrelated asynchronous reset signal 'rst_c' via the GSR
+     component.
+
+     Type and number of components of the type: 
+   Register = 73 
+
+     Type and instance name of component: 
+   Register : u5/clk16Hz_uut/cnt_4439__i31
+   Register : u5/clk16Hz_uut/cnt_4439__i30
+   Register : u5/clk16Hz_uut/cnt_4439__i29
+   Register : u5/clk16Hz_uut/cnt_4439__i28
+   Register : u5/clk16Hz_uut/cnt_4439__i27
+   Register : u5/clk16Hz_uut/cnt_4439__i26
+   Register : u5/clk16Hz_uut/cnt_4439__i25
+   Register : u5/clk16Hz_uut/cnt_4439__i24
+   Register : u5/clk16Hz_uut/cnt_4439__i23
+   Register : u5/clk16Hz_uut/cnt_4439__i22
+   Register : u5/clk16Hz_uut/cnt_4439__i21
+   Register : u5/clk16Hz_uut/cnt_4439__i20
+   Register : u5/clk16Hz_uut/cnt_4439__i19
+   Register : u5/clk16Hz_uut/cnt_4439__i18
+   Register : u5/clk16Hz_uut/cnt_4439__i17
+   Register : u5/clk16Hz_uut/cnt_4439__i16
+   Register : u5/clk16Hz_uut/cnt_4439__i15
+   Register : u5/clk16Hz_uut/cnt_4439__i14
+   Register : u5/clk16Hz_uut/cnt_4439__i13
+   Register : u5/clk16Hz_uut/cnt_4439__i12
+   Register : u5/clk16Hz_uut/cnt_4439__i11
+   Register : u5/clk16Hz_uut/cnt_4439__i10
+   Register : u5/clk16Hz_uut/cnt_4439__i9
+   Register : u5/clk16Hz_uut/cnt_4439__i8
+   Register : u5/clk16Hz_uut/cnt_4439__i7
+   Register : u5/clk16Hz_uut/cnt_4439__i6
+   Register : u5/clk16Hz_uut/cnt_4439__i5
+   Register : u5/clk16Hz_uut/cnt_4439__i4
+   Register : u5/clk16Hz_uut/cnt_4439__i3
+   Register : u5/clk16Hz_uut/cnt_4439__i2
+   Register : u5/clk16Hz_uut/cnt_4439__i1
+
+                                    Page 9
+
+
+
+
+Design:  Interface_BH1750                              Date:  06/11/17  18:52:49
+
+GSR Usage (cont)
+----------------
+   Register : u5/clk16Hz_uut/cnt_4439__i0
+   Register : u5/clk10KHz_uut/cnt_4440__i9
+   Register : u5/clk10KHz_uut/cnt_4440__i8
+   Register : u5/clk10KHz_uut/cnt_4440__i7
+   Register : u5/clk10KHz_uut/cnt_4440__i6
+   Register : u5/clk10KHz_uut/cnt_4440__i5
+   Register : u5/clk10KHz_uut/cnt_4440__i4
+   Register : u5/clk10KHz_uut/cnt_4440__i3
+   Register : u5/clk10KHz_uut/cnt_4440__i2
+   Register : u5/clk10KHz_uut/cnt_4440__i1
+   Register : u5/clk10KHz_uut/cnt_4440__i0
+   Register : u5/clk10KHz_uut/cnt_4440__i31
+   Register : u5/clk10KHz_uut/cnt_4440__i30
+   Register : u5/clk10KHz_uut/cnt_4440__i29
+   Register : u5/clk10KHz_uut/cnt_4440__i28
+   Register : u5/clk10KHz_uut/cnt_4440__i27
+   Register : u5/clk10KHz_uut/cnt_4440__i26
+   Register : u5/clk10KHz_uut/cnt_4440__i25
+   Register : u5/clk10KHz_uut/cnt_4440__i24
+   Register : u5/clk10KHz_uut/cnt_4440__i23
+   Register : u5/clk10KHz_uut/cnt_4440__i22
+   Register : u5/clk10KHz_uut/cnt_4440__i21
+   Register : u5/clk10KHz_uut/cnt_4440__i20
+   Register : u5/clk10KHz_uut/cnt_4440__i19
+   Register : u5/clk10KHz_uut/cnt_4440__i18
+   Register : u5/clk10KHz_uut/cnt_4440__i17
+   Register : u5/clk10KHz_uut/cnt_4440__i16
+   Register : u5/clk10KHz_uut/cnt_4440__i15
+   Register : u5/clk10KHz_uut/cnt_4440__i14
+   Register : u5/clk10KHz_uut/cnt_4440__i13
+   Register : u5/clk10KHz_uut/cnt_4440__i12
+   Register : u5/clk10KHz_uut/cnt_4440__i11
+   Register : u5/clk10KHz_uut/cnt_4440__i10
+   Register : u1/cnt_100khz_4433_4434__i6
+   Register : u1/cnt_100khz_4433_4434__i5
+   Register : u1/cnt_100khz_4433_4434__i4
+   Register : u1/cnt_100khz_4433_4434__i3
+   Register : u1/cnt_100khz_4433_4434__i2
+   Register : u1/cnt_4435__i8
+   Register : u1/cnt_4435__i9
+   Register : u1/cnt_4435__i10
+   Register : u1/cnt_100khz_4433_4434__i1
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 54 MB
+        
+
+
+
+
+
+
+
+                                   Page 10
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights
+     reserved.

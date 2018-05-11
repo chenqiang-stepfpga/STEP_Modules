@@ -1,0 +1,105 @@
+----------------------------------------------------------------------
+Report for cell Interface_BH1750.TECH
+Register bits:  128 of 4635 (2.762%)
+I/O cells:      53
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                 BB         1          100.0
+                              CCU2D        81          100.0
+                            FD1P3AX        22          100.0
+                            FD1P3AY         3          100.0
+                            FD1P3IX        18          100.0
+                            FD1P3JX         1          100.0
+                             FD1S1A         4          100.0
+                            FD1S3AX         3          100.0
+                            FD1S3IX        77          100.0
+                                GSR         1          100.0
+                                 IB         2          100.0
+                               LUT4       536          100.0
+                                 OB        50          100.0
+                              PFUMX        29          100.0
+SUB MODULES
+                             BH1750         1
+                         BIN_To_BCD         1
+        clk_div(COUNTER_NUM=100000)         1
+          clk_div(COUNTER_NUM=1200)         1
+                           led_scan         1
+                            rgb_led         1
+                            seg_led         1
+                              TOTAL       835
+----------------------------------------------------------------------
+Report for cell led_scan.v1
+Instance Path : u5
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        66           81.5
+                            FD1P3AX         7           31.8
+                            FD1P3IX        15           83.3
+                            FD1P3JX         1          100.0
+                             FD1S1A         4          100.0
+                            FD1S3AX         2           66.7
+                            FD1S3IX        65           84.4
+                               LUT4       151           28.2
+                              PFUMX         9           31.0
+SUB MODULES
+        clk_div(COUNTER_NUM=100000)         1
+          clk_div(COUNTER_NUM=1200)         1
+                              TOTAL       322
+----------------------------------------------------------------------
+Report for cell clk_div(COUNTER_NUM=100000).v1
+Instance Path : u5.clk16Hz_uut
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        33           40.7
+                            FD1S3AX         1           33.3
+                            FD1S3IX        32           41.6
+                               LUT4         1            0.2
+                              TOTAL        67
+----------------------------------------------------------------------
+Report for cell clk_div(COUNTER_NUM=1200).v1
+Instance Path : u5.clk10KHz_uut
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        33           40.7
+                            FD1S3AX         1           33.3
+                            FD1S3IX        32           41.6
+                               LUT4         1            0.2
+                              TOTAL        67
+----------------------------------------------------------------------
+Report for cell BIN_To_BCD.v1
+Instance Path : u3
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4        16            3.0
+                              TOTAL        16
+----------------------------------------------------------------------
+Report for cell seg_led.v1
+Instance Path : u4
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         7            1.3
+                              TOTAL         7
+----------------------------------------------------------------------
+Report for cell BH1750.v1
+Instance Path : u1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        11           13.6
+                            FD1P3AX        15           68.2
+                            FD1P3AY         3          100.0
+                            FD1P3IX         3           16.7
+                            FD1S3AX         1           33.3
+                            FD1S3IX         6            7.8
+                               LUT4       344           64.2
+                              PFUMX        19           65.5
+                              TOTAL       402
+----------------------------------------------------------------------
+Report for cell rgb_led.v1
+Instance Path : u6
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         4            4.9
+                            FD1S3IX         6            7.8
+                               LUT4        12            2.2
+                              PFUMX         1            3.4
+                              TOTAL        23
